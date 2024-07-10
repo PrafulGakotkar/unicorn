@@ -16,7 +16,7 @@ export default function Home() {
                                             <ul className="category-list clearfix">
                                                 
                                                 <li>
-                                                    <Link href="/math1" className="current">MATHEMATICS 1 </Link>
+                                                    <Link href="/math1" >MATHEMATICS 1 </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/math2">MATHEMATICS 2</Link>
@@ -25,7 +25,7 @@ export default function Home() {
                                                     <Link href="/math3">MATHEMATICS 3</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/math4">MATHEMATICS 4</Link>
+                                                    <Link href="/math4" className="current">MATHEMATICS 4</Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/math5">MATHEMATICS 5</Link>
@@ -67,21 +67,32 @@ export default function Home() {
                                             </figure>
                                             <div className="text">
                                                 <h2>MATHEMATICS</h2>
-                                                <p> Khan Academy:  A free, non-profit resource offering video tutorials, practice exercises, and assessments across a wide range of math topics, from basic arithmetic to calculus. Khan Academy is a great place to start for foundational knowledge or to brush up on rusty skills.		
+                                                <p> Socratic by Google AI:  Ask questions and receive explanations, visuals, and resources across math topics. While not specifically designed for math, Socratic can be a handy tool to get basic explanations or alternative ways of understanding a concept.		
                                                 </p>
-                                                <h4>content</h4>
-                                                <p>Offers instruction on a variety of math topics including early math, kindergarten, 1st grade, 2nd grade, 3rd grade, 4th grade, 5th grade, 6th grade, 7th grade, 8th grade, Algebra 1, Algebra 2, Trigonometry, Statistics and Probability, High School Statistics, AP®︎/College Statistics, Calculus, Multivariable Calculus, Differential Equations, Linear Algebra
+                                                <h4>Subject Focus
+                                                </h4>
+                                                <p>General (not exclusively math)
                                                 </p>
-                                                <h4>Learner Level</h4>
-                                                <p>Caters to learners from early math to Calculus
+                                                <h4>Math Functionality
+                                                </h4>
+                                                <p>Can answer math questions and provide explanations
                                                 </p>
-                                                <h4>Additional Features</h4>
-                                                <p>Offers resources for learners who are looking for a refresher on basic math skills
+                                                <h4>Level of Detail
+                                                </h4>
+                                                <p>Explanations might be more basic compared to math-specific tools
+                                                </p>
+                                                <h4>Strength
+                                                </h4>
+                                                <p>Offers alternative explanations and resources for math concepts
+                                                </p>
+                                                <h4>Limitations
+                                                </h4>
+                                                <p>May not be suitable for in-depth problem solving or advanced topics
                                                 </p>
 
                                             </div>
                                             <div className="more-btn mt_60">
-                                                <Link href="https://www.khanacademy.org/math" className="theme-btn-one">Read More</Link>
+                                                <Link href="https://socratic.org/" className="theme-btn-one">Read More</Link>
                                             </div>
                                         </div>
                                         {/* <div className="content-two mb_90">

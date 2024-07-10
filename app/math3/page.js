@@ -73,11 +73,21 @@ export default function Home() {
                                                 </h4>
                                                 <p>Solves math problems step-by-step
                                                 </p>
-                                                <h4>Learner Level</h4>
-                                                <p>Caters to learners from early math to Calculus
+                                                <h4>Solution Output
+                                                </h4>
+                                                <p>Provides step-by-step explanations for solving the problem
                                                 </p>
-                                                <h4>Additional Features</h4>
-                                                <p>Offers resources for learners who are looking for a refresher on basic math skills
+                                                <h4>Additional Features
+                                                </h4>
+                                                <p>May offer additional functionalities like graphing or plotting (depending on subscription level)
+                                                </p>
+                                                <h4>Limitations
+                                                </h4>
+                                                <p>Free version may have limitations, advanced features might require a paid subscription
+                                                </p>
+                                                <h4>Important Note
+                                                </h4>
+                                                <p>While helpful for checking work or understanding the process, it shouldn't replace building a deep understanding of concepts
                                                 </p>
 
                                             </div>
