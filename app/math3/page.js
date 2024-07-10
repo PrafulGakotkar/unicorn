@@ -16,7 +16,7 @@ export default function Home() {
                                             <ul className="category-list clearfix">
                                                 
                                                 <li>
-                                                    <Link href="/math1" className="current">MATHEMATICS 1 </Link>
+                                                    <Link href="/math1" >MATHEMATICS 1 </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/math2">MATHEMATICS 2</Link>

@@ -16,7 +16,7 @@ export default function Home() {
                                             <ul className="category-list clearfix">
                                                 
                                                 <li>
-                                                    <Link href="/math1" className="current">MATHEMATICS 1 </Link>
+                                                    <Link href="/math1" >MATHEMATICS 1 </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/math2">MATHEMATICS 2</Link>
@@ -28,7 +28,7 @@ export default function Home() {
                                                     <Link href="/math4">MATHEMATICS 4</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/math5">MATHEMATICS 5</Link>
+                                                    <Link href="/math5" className="current">MATHEMATICS 5</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -67,21 +67,34 @@ export default function Home() {
                                             </figure>
                                             <div className="text">
                                                 <h2>MATHEMATICS</h2>
-                                                <p> Khan Academy:  A free, non-profit resource offering video tutorials, practice exercises, and assessments across a wide range of math topics, from basic arithmetic to calculus. Khan Academy is a great place to start for foundational knowledge or to brush up on rusty skills.		
+                                                <p> Symbolab:  Solve math problems and get step-by-step explanations (free for basic problems, paid subscription for advanced features). Similar to Mathway, Symbolab can solve math problems and show the steps involved. It also offers features like graphing and plotting, which can be helpful for visualizing concepts.		
                                                 </p>
-                                                <h4>content</h4>
-                                                <p>Offers instruction on a variety of math topics including early math, kindergarten, 1st grade, 2nd grade, 3rd grade, 4th grade, 5th grade, 6th grade, 7th grade, 8th grade, Algebra 1, Algebra 2, Trigonometry, Statistics and Probability, High School Statistics, AP®︎/College Statistics, Calculus, Multivariable Calculus, Differential Equations, Linear Algebra
+                                                <h4>Main Functionality
+                                                </h4>
+                                                <p>Solve math problems and get step-by-step explanations
                                                 </p>
-                                                <h4>Learner Level</h4>
-                                                <p>Caters to learners from early math to Calculus
+                                                <h4>Problem Input</h4>
+                                                <p>Allows users to type or upload an image of the math problem
+                                                </p>
+                                                <h4>Solution Output</h4>
+                                                <p>Provides step-by-step explanations for solving the problem
                                                 </p>
                                                 <h4>Additional Features</h4>
-                                                <p>Offers resources for learners who are looking for a refresher on basic math skills
+                                                <p>Offers graphing, plotting, and other visualization tools (may vary depending on subscription level)
+                                                </p>
+                                                <h4>Cost</h4>
+                                                <p>Free for basic problems, paid subscription for advanced features
+                                                </p>
+                                                <h4>Strengths</h4>
+                                                <p>Great for checking work, understanding problem-solving processes, and visualizing concepts
+                                                </p>
+                                                <h4>Limitations</h4>
+                                                <p>Free version may have limitations on problem complexity or features
                                                 </p>
 
                                             </div>
                                             <div className="more-btn mt_60">
-                                                <Link href="https://www.khanacademy.org/math" className="theme-btn-one">Read More</Link>
+                                                <Link href="https://www.symbolab.com/" className="theme-btn-one">Read More</Link>
                                             </div>
                                         </div>
                                         {/* <div className="content-two mb_90">
