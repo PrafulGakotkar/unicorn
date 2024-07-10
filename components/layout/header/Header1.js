@@ -66,11 +66,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="outer-box">
                             <div className="logo-box">
-                            <figure className="logo">
+                            {/* <figure className="logo">
                                 <Link href="/">
                                 <img src="assets/images/logo.png" alt="/" />
                                 </Link>
-                            </figure>
+                            </figure> */}<h2>Unicorn</h2>
                             </div>
                             <div className="menu-area clearfix">
                             <nav className="main-menu clearfix">
