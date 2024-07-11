@@ -1,11 +1,8 @@
 {
-  "/science_buddies/page": "app/science_buddies/page.js",
-  "/social1/page": "app/social1/page.js",
-  "/social2/page": "app/social2/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/math1/page": "app/math1/page.js",
   "/math2/page": "app/math2/page.js",
   "/math3/page": "app/math3/page.js",
-  "/math4/page": "app/math4/page.js",
   "/math5/page": "app/math5/page.js",
-  "/expert_created_content/page": "app/expert_created_content/page.js"
+  "/math4/page": "app/math4/page.js"
 }
