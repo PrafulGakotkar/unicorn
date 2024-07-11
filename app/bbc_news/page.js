@@ -37,7 +37,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-1.jpg" alt="" />
+                                    <img src="assets/images/service/newsArticles.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -56,14 +56,14 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-2.jpg" alt="" />
+                                    <img src="assets/images/service/inDepthFeature.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
                                         <div className="icon-box"><i className="icon-12"></i></div>
                                         <h3><Link href="/in_depth_features">In-Depth Features
                                         </Link></h3>
-                                        <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
+                                        <p>Beyond breaking news, BBC Science dives deeper into specific...</p>
                                         <div className="btn-box">
                                         <Link href="/in_depth_features" className="theme-btn-one">Read More</Link>
                                         </div>
@@ -76,14 +76,14 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-3.jpg" alt="" />
+                                    <img src="assets/images/service/videoAudio.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
                                         <div className="icon-box"><i className="icon-8"></i></div>
                                         <h3><Link href="/video_and_audio_content">Video and Audio Content
                                         </Link></h3>
-                                        <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
+                                        <p>BBC Science incorporates multimedia elements like ...</p>
                                         <div className="btn-box">
                                         <Link href="/video_and_audio_content" className="theme-btn-one">Read More</Link>
                                         </div>
@@ -96,14 +96,14 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-4.jpg" alt="" />
+                                    <img src="assets/images/service/interactive feature.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
                                         <div className="icon-box"><i className="icon-13"></i></div>
                                         <h3><Link href="/interactive_features">Interactive Features
                                         </Link></h3>
-                                        <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
+                                        <p>BBC Science may include interactive features like...</p>
                                         <div className="btn-box">
                                         <Link href="/interactive_features" className="theme-btn-one">Read More</Link>
                                         </div>
@@ -116,14 +116,14 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-5.jpg" alt="" />
+                                    <img src="assets/images/service/collection.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
                                         <div className="icon-box"><i className="icon-14"></i></div>
                                         <h3><Link href="/collection_and_series">Collections and Series
                                         </Link></h3>
-                                        <p>Amet minim mollit no duis sit enim aliqua dolor do
+                                        <p>BBC Science organizes content into curated...
                                         </p>
                                         <div className="btn-box">
                                         <Link href="/collection_and_series" className="theme-btn-one">Read More</Link>

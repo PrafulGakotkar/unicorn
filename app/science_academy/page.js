@@ -37,7 +37,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-1.jpg" alt="" />
+                                    <img src="assets/images/service/education.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -57,7 +57,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-2.jpg" alt="" />
+                                    <img src="assets/images/service/personalized learning.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -76,7 +76,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-3.jpg" alt="" />
+                                    <img src="assets/images/service/microlearning.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -96,7 +96,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-4.jpg" alt="" />
+                                    <img src="assets/images/service/mastery based learning.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -116,7 +116,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-5.jpg" alt="" />
+                                    <img src="assets/images/service/Practice Exercises and Quizzes .jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -136,7 +136,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-5.jpg" alt="" />
+                                    <img src="assets/images/service/Progress Tracking.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -156,7 +156,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-5.jpg" alt="" />
+                                    <img src="assets/images/service/science cources.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -176,7 +176,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-5.jpg" alt="" />
+                                    <img src="assets/images/service/Expert-Created Content.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
