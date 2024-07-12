@@ -67,7 +67,7 @@ export default function Home() {
                                     <div className="service-details-content">
                                         <div className="content-one mb_90">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/service-10.jpg" alt="" />
+                                                <img src="assets/images/service/Interactive Learning1.jpg" alt="" />
                                             </figure>
                                             <div className="text">
                                                 <h2>Interactive Learning</h2>
@@ -78,7 +78,7 @@ export default function Home() {
 
                                             </div>
                                             <div className="more-btn mt_60">
-                                                <Link href="/services2" className="theme-btn-one">Read More</Link>
+                                                <Link href="https://education.nationalgeographic.org/" className="theme-btn-one">Read More</Link>
                                             </div>
                                         </div>
 

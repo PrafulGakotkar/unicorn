@@ -16,19 +16,19 @@ export default function Home() {
                                             <ul className="category-list clearfix">
                                                 
                                                 <li>
-                                                    <Link href="/math1" >MATHEMATICS 1 </Link>
+                                                    <Link href="/math1" >Khan Academy</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/math2">MATHEMATICS 2</Link>
+                                                    <Link href="/math2" className="current">Purplemath</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/math3">MATHEMATICS 3</Link>
+                                                    <Link href="/math3" >Mathway</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/math4">MATHEMATICS 4</Link>
+                                                    <Link href="/math4" >Socratic by Google AI</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/math5" className="current">MATHEMATICS 5</Link>
+                                                    <Link href="/math5" className="current">Symbolab</Link>
                                                 </li>
                                             </ul>
                                         </div>

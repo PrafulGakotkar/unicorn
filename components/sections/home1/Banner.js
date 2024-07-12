@@ -45,8 +45,8 @@ export default function Banner() {
                             <div className="content-box">
                             <div className="content-inner">
                                 <span>Change The World</span>
-                                <h2>Build & Grow Your Business</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Turpis ridiculus tellus.</p>
+                                <h2>Welcome To Our Innovation Community Unicorn Startup</h2>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Turpis ridiculus tellus.</p> */}
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
                             </div>
@@ -62,8 +62,8 @@ export default function Banner() {
                             <div className="content-box">
                             <div className="content-inner">
                                 <span>Change The World</span>
-                                <h2>Build & Grow Your Business</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Turpis ridiculus tellus.</p>
+                                <h2>Welcome To Our Innovation Community Unicorn Startup</h2>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Turpis ridiculus tellus.</p> */}
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
                             </div>

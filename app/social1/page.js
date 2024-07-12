@@ -44,11 +44,11 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                                    <h3><Link href="#">Subject matter
+                                                    <h3><Link href="https://socratic.org/">Subject matter
                                                     </Link></h3>
                                                     <p>Across subjects including history<br/><br/><br/></p>
                                                     <div className="btn-box">
-                                                        <Link href="#" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://socratic.org/" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -64,11 +64,11 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-12"></i></div>
-                                                    <h3><Link href="#">Functionality</Link></h3>
+                                                    <h3><Link href="https://socratic.org/">Functionality</Link></h3>
                                                     <p>Users can ask questions and receive explanations, visuals, and resources
                                                     </p>
                                                     <div className="btn-box">
-                                                        <Link href="#" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://socratic.org/" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -84,10 +84,10 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-8"></i></div>
-                                                    <h3><Link href="#">Learning style </Link></h3>
+                                                    <h3><Link href="https://socratic.org/">Learning style </Link></h3>
                                                     <p>Socratic helps users to understand complex concepts<br/><br/></p>
                                                     <div className="btn-box">
-                                                        <Link href="#" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://socratic.org/" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>

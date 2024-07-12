@@ -34,21 +34,21 @@ export default function Menu() {
                         </li>
                         <li className="dropdown"><Link href="#">Social</Link>
                             <ul>
-                                <li><Link href="/social1">Social 1</Link></li>
-                                <li><Link href="/social2">Social 2</Link></li>
-                                <li><Link href="/social3">Social 3</Link></li>
-                                <li><Link href="/social4">Social 4</Link></li>
-                                <li><Link href="/social5">Social 5</Link></li>
+                                <li><Link href="/social1">Socratic by Google AI</Link></li>
+                                <li><Link href="/social2">Khan Academy</Link></li>
+                                <li><Link href="/social3">iCivics</Link></li>
+                                <li><Link href="/social4">Newsela</Link></li>
+                                <li><Link href="/social5">Library of Congress</Link></li>
 
                             </ul>
                         </li>
                         <li className="dropdown"><Link href="#">Mathematics</Link>
                             <ul>
-                                <li><Link href="/math1">Mathematics 1</Link></li>
-                                <li><Link href="/math2">Mathematics 2</Link></li>
-                                <li><Link href="/math3">Mathematics 3</Link></li>
-                                <li><Link href="/math4">Mathematics 4</Link></li>
-                                <li><Link href="/math5">Mathematics 5</Link></li>
+                                <li><Link href="/math1">Khan Academy</Link></li>
+                                <li><Link href="/math2">Purplemath</Link></li>
+                                <li><Link href="/math3">Mathway</Link></li>
+                                <li><Link href="/math4">Socratic by Google AI</Link></li>
+                                <li><Link href="/math5">Symbolab</Link></li>
 
                             </ul>
                         </li>

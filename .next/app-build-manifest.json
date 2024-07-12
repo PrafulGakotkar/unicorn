@@ -90,6 +90,76 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/social5/page.js"
+    ],
+    "/bbc_news/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/bbc_news/page.js"
+    ],
+    "/news_articles/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/news_articles/page.js"
+    ],
+    "/national_geographic_science/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/national_geographic_science/page.js"
+    ],
+    "/science_academy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/science_academy/page.js"
+    ],
+    "/math1/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/math1/page.js"
+    ],
+    "/math2/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/math2/page.js"
+    ],
+    "/math3/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/math3/page.js"
+    ],
+    "/variety_of_media/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/variety_of_media/page.js"
+    ],
+    "/focus_on_exploration/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/focus_on_exploration/page.js"
+    ],
+    "/age_spesific_content/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/age_spesific_content/page.js"
+    ],
+    "/interactive_learning/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/interactive_learning/page.js"
+    ],
+    "/connection_to_real_world/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/connection_to_real_world/page.js"
+    ],
+    "/math4/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/math4/page.js"
+    ],
+    "/math5/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/math5/page.js"
     ]
   }
 }
