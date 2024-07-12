@@ -82,7 +82,7 @@ export default function Home() {
 
                                             </div>
                                             <div className="more-btn mt_60">
-                                                <Link href="/services2" className="theme-btn-one">Read More</Link>
+                                                <Link href="https://www.calacademy.org/" className="theme-btn-one">Read More</Link>
                                             </div>
                                         </div>
                                         {/* <div className="content-two mb_90">
