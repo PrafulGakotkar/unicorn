@@ -67,7 +67,7 @@ export default function Home() {
                                     <div className="service-details-content">
                                         <div className="content-one mb_90">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/service-10.jpg" alt="" />
+                                                <img src="assets/images/service/Science Fair Tools.jpg" alt="" />
                                             </figure>
                                             <div className="text">
                                                 <h2>Fun and Engaging Experiments</h2>

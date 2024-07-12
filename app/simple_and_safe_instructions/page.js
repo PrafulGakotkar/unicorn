@@ -69,7 +69,7 @@ export default function Home() {
                                     <div className="service-details-content">
                                         <div className="content-one mb_90">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/service-10.jpg" alt="" />
+                                                <img src="assets/images/service/Simple and Safe Instructions1.jpg" alt="" />
                                             </figure>
                                             <div className="text">
                                                 <h2>Simple and Safe Instructions</h2>

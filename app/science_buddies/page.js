@@ -37,7 +37,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-1.jpg" alt="" />
+                                    <img src="assets/images/service/Free Science Fair Project Ideas.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -56,7 +56,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-2.jpg" alt="" />
+                                    <img src="assets/images/service/Project Guides.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -75,7 +75,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-3.jpg" alt="" />
+                                    <img src="assets/images/service/asl an forum.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -95,7 +95,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-4.jpg" alt="" />
+                                    <img src="assets/images/service/Science Fair Tools.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -114,7 +114,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-5.jpg" alt="" />
+                                    <img src="assets/images/service/Engineering Design Challenges.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
@@ -134,7 +134,7 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/service-5.jpg" alt="" />
+                                    <img src="assets/images/service/Teacher Resources.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">

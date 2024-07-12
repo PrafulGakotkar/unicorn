@@ -1,15 +1,15 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/loading": [
       "static/chunks/webpack.js",
@@ -21,41 +21,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/bbc_news/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bbc_news/page.js"
-    ],
-    "/news_articles/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/news_articles/page.js"
-    ],
-    "/in_depth_features/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/in_depth_features/page.js"
-    ],
-    "/video_and_audio_content/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/video_and_audio_content/page.js"
-    ],
-    "/interactive_features/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/interactive_features/page.js"
-    ],
-    "/collection_and_series/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/collection_and_series/page.js"
-    ],
-    "/science_academy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/science_academy/page.js"
-    ],
     "/science_buddies/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -66,80 +31,65 @@
       "static/chunks/main-app.js",
       "static/chunks/app/crazy_scientist/page.js"
     ],
-    "/free_world_class_education/page": [
+    "/printable_resources/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/free_world_class_education/page.js"
+      "static/chunks/app/printable_resources/page.js"
     ],
-    "/personalize_learning/page": [
+    "/explanations/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/personalize_learning/page.js"
+      "static/chunks/app/explanations/page.js"
     ],
-    "/microlearning/page": [
+    "/categorized_activities/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/microlearning/page.js"
+      "static/chunks/app/categorized_activities/page.js"
     ],
-    "/mastery_based_learning/page": [
+    "/household_materials/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/mastery_based_learning/page.js"
+      "static/chunks/app/household_materials/page.js"
     ],
-    "/practice_exercises_and_quizzes/page": [
+    "/simple_and_safe_instructions/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/practice_exercises_and_quizzes/page.js"
+      "static/chunks/app/simple_and_safe_instructions/page.js"
     ],
-    "/process_tracking/page": [
+    "/fun_and_engineering/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/process_tracking/page.js"
-    ],
-    "/science_cources/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/science_cources/page.js"
-    ],
-    "/expert_created_content/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/expert_created_content/page.js"
+      "static/chunks/app/fun_and_engineering/page.js"
     ],
     "/social1/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/social1/page.js"
     ],
+    "/trusted_and_engaging_content/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/trusted_and_engaging_content/page.js"
+    ],
     "/social2/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/social2/page.js"
     ],
-    "/math1/page": [
+    "/social3/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/math1/page.js"
+      "static/chunks/app/social3/page.js"
     ],
-    "/math2/page": [
+    "/social4/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/math2/page.js"
+      "static/chunks/app/social4/page.js"
     ],
-    "/math3/page": [
+    "/social5/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/math3/page.js"
-    ],
-    "/math4/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/math4/page.js"
-    ],
-    "/math5/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/math5/page.js"
+      "static/chunks/app/social5/page.js"
     ]
   }
 }
