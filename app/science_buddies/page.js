@@ -1,6 +1,7 @@
 'use client'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import { Helmet } from 'react-helmet';
 import { useState } from 'react'
 export default function Home() {
     const [isActive, setIsActive] = useState({
@@ -25,6 +26,11 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Science Buddies">
                 <div>
+
+                    <Helmet>
+                        <title>ScienceBuddies</title>
+                    </Helmet>
+
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">
                         <div className="auto-container">
@@ -33,124 +39,124 @@ export default function Home() {
                             <h2>Provide the Best Consulting <br />in This Industry</h2>
                             </div> */}
                             <div className="row clearfix">
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Free Science Fair Project Ideas.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-7"></i></div>
-                                        <h3><Link href="/free_science_fair">Free Science Fair Project Ideas                                        </Link></h3>
-                                        <p>Science Buddies offers a vast collection of science fair project...</p>
-                                        <div className="btn-box">
-                                        <Link href="/free_science_fair" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Free Science Fair Project Ideas.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-7"></i></div>
+                                                    <h3><Link href="/free_science_fair">Free Science Fair Project Ideas                                        </Link></h3>
+                                                    <p>Science Buddies offers a vast collection of science fair project...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/free_science_fair" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Project Guides.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-12"></i></div>
-                                        <h3><Link href="/project_guides">Project Guides</Link></h3>
-                                        <p>In-depth guides walk students through the entire science fair project process...</p>
-                                        <div className="btn-box">
-                                        <Link href="/project_guides" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Project Guides.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-12"></i></div>
+                                                    <h3><Link href="/project_guides">Project Guides</Link></h3>
+                                                    <p>In-depth guides walk students through the entire science fair project process...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/project_guides" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/asl an forum.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-8"></i></div>
-                                        <h3><Link href="/ask_an_expert_forum">Ask an Expert Forum
-                                        </Link></h3>
-                                        <p>Students can connect with scientists and engineers through a moderated...</p>
-                                        <div className="btn-box">
-                                        <Link href="/ask_an_expert_forum" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/asl an forum.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-8"></i></div>
+                                                    <h3><Link href="/ask_an_expert_forum">Ask an Expert Forum
+                                                    </Link></h3>
+                                                    <p>Students can connect with scientists and engineers through a moderated...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/ask_an_expert_forum" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Science Fair Tools.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-13"></i></div>
-                                        <h3><Link href="/science_fair_tools">Science Fair Tools</Link></h3>
-                                        <p>Science Buddies provides downloadable tools like grading rubrics...</p>
-                                        <div className="btn-box">
-                                        <Link href="/science_fair_tools" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Science Fair Tools.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-13"></i></div>
+                                                    <h3><Link href="/science_fair_tools">Science Fair Tools</Link></h3>
+                                                    <p>Science Buddies provides downloadable tools like grading rubrics...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/science_fair_tools" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Engineering Design Challenges.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-14"></i></div>
-                                        <h3><Link href="/engineering_design_challenges">Engineering Design Challenges
-                                        </Link></h3>
-                                        <p>The website offers annual engineering design challenges ...</p>
-                                        <div className="btn-box">
-                                        <Link href="/engineering_design_challenges" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Engineering Design Challenges.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-14"></i></div>
+                                                    <h3><Link href="/engineering_design_challenges">Engineering Design Challenges
+                                                    </Link></h3>
+                                                    <p>The website offers annual engineering design challenges ...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/engineering_design_challenges" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Teacher Resources.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-15"></i></div>
-                                        <h3><Link href="/teacher_resources">Teacher Resources
-                                        </Link></h3>
-                                        <p>A dedicated section provides lesson plans, project ideas, and classroom ...</p>
-                                        <div className="btn-box">
-                                        <Link href="/teacher_resources" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Teacher Resources.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-15"></i></div>
+                                                    <h3><Link href="/teacher_resources">Teacher Resources
+                                                    </Link></h3>
+                                                    <p>A dedicated section provides lesson plans, project ideas, and classroom ...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/teacher_resources" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                           
+
                             </div>
                         </div>
                     </section>

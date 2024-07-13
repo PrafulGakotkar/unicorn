@@ -1,8 +1,7 @@
 {
-  "/page": "app/page.js",
-  "/math3/page": "app/math3/page.js",
-  "/math4/page": "app/math4/page.js",
-  "/math5/page": "app/math5/page.js",
-  "/social1/page": "app/social1/page.js",
-  "/math1/page": "app/math1/page.js"
+  "/math1/page": "app/math1/page.js",
+  "/bbc_news/page": "app/bbc_news/page.js",
+  "/website_designing/page": "app/website_designing/page.js",
+  "/ai_tools/page": "app/ai_tools/page.js",
+  "/reacherstools/page": "app/reacherstools/page.js"
 }

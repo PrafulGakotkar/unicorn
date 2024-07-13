@@ -26454,33 +26454,34 @@ Image Hover
 /*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./public/assets/css/elements-css/projects.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************/
-.project-block-one{
+.project-block-one {
 	margin-bottom: 30px;
 }
-.project-block-one .inner-box{
+
+.project-block-one .inner-box {
 	position: relative;
 	display: block;
 	overflow: hidden;
 }
 
-.project-block-one .inner-box .image-box{
+.project-block-one .inner-box .image-box {
 	position: relative;
 	display: block;
 	overflow: hidden;
 	border-radius: 10px;
 }
 
-.project-block-one .inner-box .image-box img{
+.project-block-one .inner-box .image-box img {
 	width: 100%;
 	border-radius: 10px;
 	transition: all 500ms ease;
 }
 
-.project-block-one .inner-box:hover .image-box img{
+.project-block-one .inner-box:hover .image-box img {
 	transform: scale(1.05);
 }
 
-.project-block-one .inner-box .content-box{
+.project-block-one .inner-box .content-box {
 	position: absolute;
 	left: 30px;
 	top: 30px;
@@ -26495,17 +26496,17 @@ Image Hover
 	padding: 15px 15px;
 	-webkit-backdrop-filter: blur(7.5px);
 	        backdrop-filter: blur(7.5px);
-	transform: scale(0,0);
+	transform: scale(0, 0);
 	opacity: 0;
 	transition: all 500ms ease;
 }
 
-.project-block-one .inner-box:hover .content-box{
-	transform: scale(1,1);
+.project-block-one .inner-box:hover .content-box {
+	transform: scale(1, 1);
 	opacity: 1;
 }
 
-.project-block-one .inner-box .content-box .view-btn a{
+.project-block-one .inner-box .content-box .view-btn a {
 	position: relative;
 	display: inline-block;
 	width: 80px;
@@ -26519,11 +26520,11 @@ Image Hover
 	margin-bottom: 25px;
 }
 
-.project-block-one .inner-box .content-box .view-btn a:hover{
+.project-block-one .inner-box .content-box .view-btn a:hover {
 	background: #241E2F;
 }
 
-.project-block-one .inner-box .content-box h3{
+.project-block-one .inner-box .content-box h3 {
 	display: block;
 	font-size: 24px;
 	line-height: 32px;
@@ -26531,16 +26532,14 @@ Image Hover
 	margin-bottom: 8px;
 }
 
-.project-block-one .inner-box .content-box h3 a{
+.project-block-one .inner-box .content-box h3 a {
 	display: inline-block;
 	color: #fff;
 }
 
-.project-block-one .inner-box .content-box h3 a:hover{
+.project-block-one .inner-box .content-box h3 a:hover {}
 
-}
-
-.project-block-one .inner-box .content-box .designation{
+.project-block-one .inner-box .content-box .designation {
 	position: relative;
 	display: block;
 	font-size: 16px;
@@ -26549,7 +26548,7 @@ Image Hover
 	font-weight: 500;
 }
 
-.projects-section .owl-theme .owl-dots .owl-dot span{
+.projects-section .owl-theme .owl-dots .owl-dot span {
 	position: relative;
 	display: inline-block;
 	width: 10px;
@@ -26562,27 +26561,25 @@ Image Hover
 }
 
 .projects-section .owl-theme .owl-dots .owl-dot.active span,
-.projects-section .owl-theme .owl-dots .owl-dot:hover span{
+.projects-section .owl-theme .owl-dots .owl-dot:hover span {}
 
-}
-
-.projects-section .owl-theme .owl-dots{
+.projects-section .owl-theme .owl-dots {
 	margin-top: 50px;
 }
 
-.projects-section{
+.projects-section {
 	padding: 142px 0px 140px 0px;
 }
 
 
 /** project-style-two **/
 
-.project-style-two{
+.project-style-two {
 	position: relative;
 	overflow: hidden;
 }
 
-.project-style-two .bg-layer{
+.project-style-two .bg-layer {
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -26593,7 +26590,7 @@ Image Hover
 	background-position: center;
 }
 
-.project-style-two .bg-layer:before{
+.project-style-two .bg-layer:before {
 	position: absolute;
 	content: '';
 	background: #000;
@@ -26604,14 +26601,14 @@ Image Hover
 	opacity: 0.4;
 }
 
-.project-block-two .inner-box{
+.project-block-two .inner-box {
 	position: relative;
 	display: block;
 	padding: 490px 30px 40px 50px;
 	border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.project-block-two .inner-box:before{
+.project-block-two .inner-box:before {
 	position: absolute;
 	content: '';
 	background: linear-gradient(180deg, rgba(222, 44, 44, 0) 28.67%, rgba(222, 44, 44, 0.4) 100%);
@@ -26623,11 +26620,11 @@ Image Hover
 	transition: all 500ms ease;
 }
 
-.project-block-two .inner-box:hover:before{
+.project-block-two .inner-box:hover:before {
 	opacity: 1;
 }
 
-.project-block-two .inner-box span{
+.project-block-two .inner-box span {
 	position: relative;
 	display: block;
 	font-size: 16px;
@@ -26635,36 +26632,34 @@ Image Hover
 	color: #fff;
 	font-weight: 500;
 	letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-bottom: 8px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
 }
 
-.project-block-two .inner-box h3{
+.project-block-two .inner-box h3 {
 	display: block;
 	font-size: 24px;
 	line-height: 34px;
 	font-weight: 600;
 }
 
-.project-block-two .inner-box h3 a{
+.project-block-two .inner-box h3 a {
 	display: inline-block;
 	color: #fff;
 }
 
-.project-block-two .inner-box h3 a:hover{
+.project-block-two .inner-box h3 a:hover {}
 
-}
-
-.project-block-two .inner-box p{
+.project-block-two .inner-box p {
 	color: #fff;
 	margin: 15px 0px 25px 0px;
 }
 
-.project-block-two .inner-box .theme-btn-one{
+.project-block-two .inner-box .theme-btn-one {
 	padding: 13px 34px;
 }
 
-.project-block-two .inner-box .overlay-content{
+.project-block-two .inner-box .overlay-content {
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
@@ -26677,25 +26672,25 @@ Image Hover
 	transition: all 500ms ease;
 }
 
-.project-block-two .inner-box:hover .overlay-content{
+.project-block-two .inner-box:hover .overlay-content {
 	bottom: 50px;
 	opacity: 1;
 }
 
-.project-block-two .inner-box .static-content{
+.project-block-two .inner-box .static-content {
 	position: relative;
 	transition: all 500ms ease;
 }
 
-.project-block-two .inner-box:hover .static-content{
+.project-block-two .inner-box:hover .static-content {
 	opacity: 0;
 }
 
-.projects-section.alternat-2{
+.projects-section.alternat-2 {
 	padding-bottom: 30px;
 }
 
-.projects-section.alternat-2:before{
+.projects-section.alternat-2:before {
 	position: absolute;
 	content: '';
 	background: #F2F2F2;
@@ -26705,19 +26700,19 @@ Image Hover
 	bottom: 0px;
 }
 
-.projects-section.alternat-2 .owl-theme .owl-dots .owl-dot span{
+.projects-section.alternat-2 .owl-theme .owl-dots .owl-dot span {
 	border-color: #F2F2F2;
 }
 
-.sortable-masonry .project-block-one .inner-box{
+.sortable-masonry .project-block-one .inner-box {
 	margin-bottom: 30px;
 }
 
-.projects-section.project-page-one{
+.projects-section.project-page-one {
 	padding: 143px 0px 120px 0px;
 }
 
-.sortable-masonry .filter-btns li{
+.sortable-masonry .filter-btns li {
 	position: relative;
 	display: inline-block;
 	font-size: 18px;
@@ -26729,30 +26724,28 @@ Image Hover
 	transition: all 500ms ease;
 }
 
-.sortable-masonry .filter-btns li.active{
-
-}
+.sortable-masonry .filter-btns li.active {}
 
 
 /** projects-style-three **/
 
-.projects-style-three{
+.projects-style-three {
 	padding: 143px 0px 90px 0px;
 }
 
-.project-block-three .inner-box{
+.project-block-three .inner-box {
 	position: relative;
 	display: block;
 	margin-bottom: 50px;
 }
 
-.project-block-three .inner-box .image-box{
+.project-block-three .inner-box .image-box {
 	position: relative;
 	display: block;
 	overflow: hidden;
 }
 
-.project-block-three .inner-box .image-box .image{
+.project-block-three .inner-box .image-box .image {
 	position: relative;
 	display: block;
 	overflow: hidden;
@@ -26760,29 +26753,29 @@ Image Hover
 	transition: all 500ms ease;
 }
 
-.project-block-three .inner-box:hover .image-box .image{
+.project-block-three .inner-box:hover .image-box .image {
 	background: #000;
 }
 
-.project-block-three .inner-box .image-box .image img{
+.project-block-three .inner-box .image-box .image img {
 	width: 100%;
 	border-radius: 10px;
 	transition: all 500ms ease;
 }
 
-.project-block-three .inner-box:hover .image-box .image img{
+.project-block-three .inner-box:hover .image-box .image img {
 	opacity: 0.5;
 	transform: scale(1.05);
 }
 
-.project-block-three .inner-box .image-box .view-btn{
+.project-block-three .inner-box .image-box .view-btn {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 }
 
-.project-block-three .inner-box .image-box .view-btn a{
+.project-block-three .inner-box .image-box .view-btn a {
 	position: relative;
 	display: inline-block;
 	width: 80px;
@@ -26792,24 +26785,24 @@ Image Hover
 	color: #fff;
 	text-align: center;
 	border-radius: 50%;
-	transform: scale(0,0);
+	transform: scale(0, 0);
 }
 
-.project-block-three .inner-box:hover .image-box .view-btn a{
-	transform: scale(1,1);
+.project-block-three .inner-box:hover .image-box .view-btn a {
+	transform: scale(1, 1);
 }
 
-.project-block-three .inner-box .image-box .view-btn a:hover{
+.project-block-three .inner-box .image-box .view-btn a:hover {
 	background: #fff;
 }
 
-.project-block-three .inner-box .lower-content{
+.project-block-three .inner-box .lower-content {
 	position: relative;
 	display: block;
 	padding-top: 23px;
 }
 
-.project-block-three .inner-box .lower-content span{
+.project-block-three .inner-box .lower-content span {
 	position: relative;
 	display: block;
 	font-size: 18px;
@@ -26818,53 +26811,49 @@ Image Hover
 	margin-bottom: 0px;
 }
 
-.project-block-three .inner-box .lower-content h3{
+.project-block-three .inner-box .lower-content h3 {
 	display: block;
 	font-size: 24px;
 	line-height: 34px;
 	font-weight: 600;
 }
 
-.project-block-three .inner-box .lower-content h3 a{
+.project-block-three .inner-box .lower-content h3 a {
 	display: inline-block;
 	color: #222;
 }
 
-.project-block-three .inner-box .lower-content h3 a:hover{
+.project-block-three .inner-box .lower-content h3 a:hover {}
 
+
+/* css for AI Tools */
+
+.tools {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 20px #eee;
+	max-width: 100%;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+	transition: all .2s ease-in-out;
+	margin:10px;
 }
 
+.tools:hover {
+	transform: scale(1.15);
+}
 
+.image-box1 {
+	width: 50%;
+	margin: 0px 40px;
+	padding:10px
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hed_text{
+	font-size: 22px;
+    font-weight: 600;
+}
 
 
 /*!******************************************************************************************************************************************************************************************************************************************************************************************!*\

@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import { Helmet } from 'react-helmet';
 import Link from "next/link"
 export default function Home() {
 
@@ -6,6 +7,11 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Collections and Series">
                 <div>
+                <Helmet>
+                        <title>Collection And Series</title>
+                    </Helmet>
+
+
                     <section className="service-details p_relative">
                         <div className="auto-container">
                             <div className="row clearfix">

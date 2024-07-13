@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import { Helmet } from 'react-helmet';
 import Link from "next/link"
 export default function Home() {
 
@@ -6,6 +7,10 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Engineering Design Challenges">
                 <div>
+                    <Helmet>
+                        <title>Connection to Real World Science</title>
+                    </Helmet>
+
                     <section className="service-details p_relative">
                         <div className="auto-container">
                             <div className="row clearfix">
@@ -72,7 +77,7 @@ export default function Home() {
                                             <div className="text">
                                                 <h2>Engineering Design Challenges</h2>
                                                 <p>
-                                                The website offers annual engineering design challenges that encourage students to apply scientific principles to solve real-world problems. These challenges come with project guides and resources specific to the theme.
+                                                    The website offers annual engineering design challenges that encourage students to apply scientific principles to solve real-world problems. These challenges come with project guides and resources specific to the theme.
                                                 </p>
 
                                             </div>

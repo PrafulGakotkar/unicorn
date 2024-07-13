@@ -2,6 +2,7 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
+import { Helmet } from 'react-helmet';
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -25,6 +26,10 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Crazy Scientist">
                 <div>
+                    <Helmet>
+                        <title>Crazy Scientist</title>
+                    </Helmet>
+
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">
                         <div className="auto-container">
@@ -33,124 +38,124 @@ export default function Home() {
                             <h2>Provide the Best Consulting <br />in This Industry</h2>
                             </div> */}
                             <div className="row clearfix">
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Fun and Engaging Experiments.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-7"></i></div>
-                                        <h3><Link href="/fun_and_engineering">Fun and Engaging Experiments
-                                        </Link></h3>
-                                        <p>Crazy Scientist offers a variety of science experiments ...</p>
-                                        <div className="btn-box">
-                                        <Link href="/fun_and_engineering" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Fun and Engaging Experiments.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-7"></i></div>
+                                                    <h3><Link href="/fun_and_engineering">Fun and Engaging Experiments
+                                                    </Link></h3>
+                                                    <p>Crazy Scientist offers a variety of science experiments ...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/fun_and_engineering" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Simple and Safe Instructions.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-12"></i></div>
-                                        <h3><Link href="/simple_and_safe_instructions">Simple and Safe Instructions
-                                        </Link></h3>
-                                        <p>Each experiment comes with clear, step-by-step instructions ...</p>
-                                        <div className="btn-box">
-                                        <Link href="/simple_and_safe_instructions" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Simple and Safe Instructions.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-12"></i></div>
+                                                    <h3><Link href="/simple_and_safe_instructions">Simple and Safe Instructions
+                                                    </Link></h3>
+                                                    <p>Each experiment comes with clear, step-by-step instructions ...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/simple_and_safe_instructions" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Household Materials.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-8"></i></div>
-                                        <h3><Link href="/household_materials">Household Materials</Link></h3>
-                                        <p>Crazy Scientist experiments are designed to use everyday household...</p>
-                                        <div className="btn-box">
-                                        <Link href="/household_materials" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Household Materials.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-8"></i></div>
+                                                    <h3><Link href="/household_materials">Household Materials</Link></h3>
+                                                    <p>Crazy Scientist experiments are designed to use everyday household...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/household_materials" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Categorized Activities.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-13"></i></div>
-                                        <h3><Link href="/categorized_activities">Categorized Activities
-                                        </Link></h3>
-                                        <p>The website categorizes experiments by age group...</p>
-                                        <div className="btn-box">
-                                        <Link href="/categorized_activities" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Categorized Activities.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-13"></i></div>
+                                                    <h3><Link href="/categorized_activities">Categorized Activities
+                                                    </Link></h3>
+                                                    <p>The website categorizes experiments by age group...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/categorized_activities" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Explanations.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-14"></i></div>
-                                        <h3><Link href="/explanations">Explanations</Link></h3>
-                                        <p>Crazy Scientist goes beyond just providing instructions. ...</p>
-                                        <div className="btn-box">
-                                        <Link href="/explanations" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Explanations.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-14"></i></div>
+                                                    <h3><Link href="/explanations">Explanations</Link></h3>
+                                                    <p>Crazy Scientist goes beyond just providing instructions. ...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/explanations" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Printable Resources.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-15"></i></div>
-                                        <h3><Link href="/printable_resources">Printable Resources</Link></h3>
-                                        <p>The website offers downloadable resources like experiment ...</p>
-                                        <div className="btn-box">
-                                        <Link href="/printable_resources" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Printable Resources.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-15"></i></div>
+                                                    <h3><Link href="/printable_resources">Printable Resources</Link></h3>
+                                                    <p>The website offers downloadable resources like experiment ...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/printable_resources" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                           
+
                             </div>
                         </div>
                     </section>

@@ -52,6 +52,16 @@ export default function Menu() {
 
                             </ul>
                         </li>
+                        <li className="dropdown"><Link href="#">AI Tool's</Link>
+                            <ul>
+                                <li><Link href="/ai_tools">30 AI Tools</Link></li>
+                                <li><Link href="/reacherstools">Reachers Tools</Link></li>
+                                <li><Link href="/website_designing">Website Designing sites</Link></li>
+                                <li><Link href="/math4">Socratic by Google AI</Link></li>
+                                <li><Link href="/math5">Symbolab</Link></li>
+
+                            </ul>
+                        </li>
                         {/* <li><Link href="/financial-advices">Financial Advices</Link></li>
                         <li><Link href="/insurance-strategy">Insurance Strategy</Link></li> */}
                     </ul>

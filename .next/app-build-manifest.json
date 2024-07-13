@@ -1,5 +1,15 @@
 {
   "pages": {
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ],
+    "/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/loading.js"
+    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -11,155 +21,30 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/loading": [
+    "/math1/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/loading.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
-    ],
-    "/science_buddies/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/science_buddies/page.js"
-    ],
-    "/crazy_scientist/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/crazy_scientist/page.js"
-    ],
-    "/printable_resources/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/printable_resources/page.js"
-    ],
-    "/explanations/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/explanations/page.js"
-    ],
-    "/categorized_activities/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/categorized_activities/page.js"
-    ],
-    "/household_materials/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/household_materials/page.js"
-    ],
-    "/simple_and_safe_instructions/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/simple_and_safe_instructions/page.js"
-    ],
-    "/fun_and_engineering/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/fun_and_engineering/page.js"
-    ],
-    "/social1/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/social1/page.js"
-    ],
-    "/trusted_and_engaging_content/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/trusted_and_engaging_content/page.js"
-    ],
-    "/social2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/social2/page.js"
-    ],
-    "/social3/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/social3/page.js"
-    ],
-    "/social4/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/social4/page.js"
-    ],
-    "/social5/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/social5/page.js"
+      "static/chunks/app/math1/page.js"
     ],
     "/bbc_news/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/bbc_news/page.js"
     ],
-    "/news_articles/page": [
+    "/ai_tools/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/news_articles/page.js"
+      "static/chunks/app/ai_tools/page.js"
     ],
-    "/national_geographic_science/page": [
+    "/reacherstools/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/national_geographic_science/page.js"
+      "static/chunks/app/reacherstools/page.js"
     ],
-    "/science_academy/page": [
+    "/website_designing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/science_academy/page.js"
-    ],
-    "/math1/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/math1/page.js"
-    ],
-    "/math2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/math2/page.js"
-    ],
-    "/math3/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/math3/page.js"
-    ],
-    "/variety_of_media/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/variety_of_media/page.js"
-    ],
-    "/focus_on_exploration/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/focus_on_exploration/page.js"
-    ],
-    "/age_spesific_content/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/age_spesific_content/page.js"
-    ],
-    "/interactive_learning/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/interactive_learning/page.js"
-    ],
-    "/connection_to_real_world/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/connection_to_real_world/page.js"
-    ],
-    "/math4/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/math4/page.js"
-    ],
-    "/math5/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/math5/page.js"
+      "static/chunks/app/website_designing/page.js"
     ]
   }
 }
