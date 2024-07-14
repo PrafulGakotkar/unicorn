@@ -69,9 +69,10 @@ export default function Footer1() {
                                     <div className="widget-content">
                                     <p>Tincidunt neque pretium lectus donec risus.</p>
                                     <ul className="info-list clearfix">
-                                        <li><i className="icon-23"></i>New Hyde Park, NY 11040</li>
-                                        <li><i className="icon-3"></i><Link href="mailto:example@info.com">example@info.com</Link></li>
-                                        <li><i className="icon-2"></i><Link href="tel:912136660027">333 666 0000</Link></li>
+                                        <li><i className="icon-23"></i>STPI 2nd Floor Divyasree Solitaire Building Hitech City, Madhapur, Hyderabad, Telangana 500081</li>
+                                        <li><i className="icon-3"></i><Link href="mailto:example@info.com">info@serpointservices.com
+                                        </Link></li>
+                                        <li><i className="icon-2"></i><Link href="tel:912136660027">+91 8247266609</Link></li>
                                     </ul>
                                     </div>
                                 </div>

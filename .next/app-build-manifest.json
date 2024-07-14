@@ -5,12 +5,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
     "/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -21,45 +15,26 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/reacherstools/page": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/reacherstools/page.js"
-    ],
-    "/collection_and_series/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/collection_and_series/page.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/website_designing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/website_designing/page.js"
     ],
-    "/data_analyst/page": [
+    "/free_science_fair/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/data_analyst/page.js"
+      "static/chunks/app/free_science_fair/page.js"
     ],
-    "/english_ai_tools/page": [
+    "/project_guides/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/english_ai_tools/page.js"
-    ],
-    "/telugu_ai_tools/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/telugu_ai_tools/page.js"
-    ],
-    "/most_useful_ai_tools/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/most_useful_ai_tools/page.js"
-    ],
-    "/power_drill_website/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/power_drill_website/page.js"
+      "static/chunks/app/project_guides/page.js"
     ]
   }
 }

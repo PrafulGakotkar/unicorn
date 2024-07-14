@@ -33,7 +33,7 @@ export default function Features() {
                         <div className="inner-box">
                             <figure className="image-box"><img src="assets/images/resource/science.png" alt="" /></figure>
                             <div className="lower-content">
-                            <div className="icon-box"><i className="icon-7"></i></div>
+                            <div className="icon-box"><i className="icon-8"></i></div>
                             <h3><Link href="/">SCIENCE</Link></h3>
                             {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                             </div>
@@ -45,7 +45,7 @@ export default function Features() {
                         <div className="inner-box">
                             <figure className="image-box"><img src="assets/images/resource/social.png" alt="" /></figure>
                             <div className="lower-content">
-                            <div className="icon-box"><i className="icon-7"></i></div>
+                            <div className="icon-box"><i className="icon-9"></i></div>
                             <h3><Link href="/">SOCIAL</Link></h3>
                             {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                             </div>
@@ -57,7 +57,7 @@ export default function Features() {
                         <div className="inner-box">
                             <figure className="image-box"><img src="assets/images/resource/AITool.png" alt="" /></figure>
                             <div className="lower-content">
-                            <div className="icon-box"><i className="icon-7"></i></div>
+                            <div className="icon-box"><i className="icon-11"></i></div>
                             <h3><Link href="/">AI TOOLS</Link></h3>
                             {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                             </div>

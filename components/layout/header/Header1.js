@@ -13,8 +13,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="top-left">
                             <ul className="info clearfix">
                             <li><i className="icon-1"></i>Mon-Fri 8:00 am-6:00 pm</li>
-                            <li><i className="icon-2"></i><Link href="tel:912136660027">+91-213-666-0027</Link></li>
-                            <li><i className="icon-3"></i><Link href="mailto:info@example.com">info@example.com</Link></li>
+                            <li><i className="icon-2"></i><Link href="tel:912136660027">+91 8247266609</Link></li>
+                            <li><i className="icon-3"></i><Link href="mailto:info@example.com">info@serpointservices.com
+                            </Link></li>
                             </ul>
                         </div>
                         <div className="top-right">
@@ -34,8 +35,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                         <div className="logo-box">
                             <figure className="logo">
-                            {/* <Link href="/"><img src="/assets/images/logo.png" alt="" /></Link> */}
-                            <Link href="/"><h1>Unicorn </h1></Link>
+                            <Link href="/"><img src="/assets/images/logo.png" alt="" /></Link>
+                            {/* <Link href="/"><h1>Unicorn </h1></Link> */}
                             </figure>
                         </div>
                         <div className="menu-area clearfix">
@@ -66,11 +67,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="outer-box">
                             <div className="logo-box">
-                            {/* <figure className="logo">
+                            <figure className="logo">
                                 <Link href="/">
                                 <img src="assets/images/logo.png" alt="/" />
                                 </Link>
-                            </figure> */}<h2>Unicorn</h2>
+                            </figure>
                             </div>
                             <div className="menu-area clearfix">
                             <nav className="main-menu clearfix">

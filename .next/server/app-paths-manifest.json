@@ -1,7 +1,5 @@
 {
-  "/data_analyst/page": "app/data_analyst/page.js",
-  "/telugu_ai_tools/page": "app/telugu_ai_tools/page.js",
-  "/most_useful_ai_tools/page": "app/most_useful_ai_tools/page.js",
-  "/power_drill_website/page": "app/power_drill_website/page.js",
-  "/english_ai_tools/page": "app/english_ai_tools/page.js"
+  "/page": "app/page.js",
+  "/free_science_fair/page": "app/free_science_fair/page.js",
+  "/website_designing/page": "app/website_designing/page.js"
 }
