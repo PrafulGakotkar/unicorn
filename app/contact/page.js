@@ -22,7 +22,7 @@ export default function Home() {
                                             <div className="block-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-32.png)' }}></div>
                                             <div className="icon-box"><i className="icon-48"></i></div>
                                             <h3>Our Location</h3>
-                                            <p>1901 Thornridge Cir. Shiloh, <br />Hawaii 81063</p>
+                                            <p>STPI 2nd Floor Divyasree Solitaire Building Hitech City, Madhapur, Hyderabad, Telangana 500081</p>
                                         </div>
                                     </div>
                                 </div>
@@ -31,7 +31,8 @@ export default function Home() {
                                         <div className="inner-box">
                                             <div className="icon-box"><i className="icon-49"></i></div>
                                             <h3>Email Address</h3>
-                                            <p><Link href="mailto:contact@example.com">contact@example.com</Link><br /><Link href="mailto:support@example.com">support@example.com</Link></p>
+                                            <p><Link href="mailto:contact@example.com">info@serpointservices.com
+                                            </Link></p>
                                         </div>
                                     </div>
                                 </div>
@@ -41,7 +42,7 @@ export default function Home() {
                                             <div className="block-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-33.png)' }}></div>
                                             <div className="icon-box"><i className="icon-50"></i></div>
                                             <h3>Phone Number</h3>
-                                            <p>Emergency Cases <br /><Link href="tel:2085550112">+(208) 555-0112</Link> (24/7)</p>
+                                            <p><Link href="tel:2085550112">+91 8247266609</Link> (24/7)</p>
                                         </div>
                                     </div>
                                 </div>
