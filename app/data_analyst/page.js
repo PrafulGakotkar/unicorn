@@ -46,9 +46,9 @@ export default function Home() {
                                 {analyst.map((data) =>
                                     <div className="col-lg-3 col-md-3 col-sm-6 tools" key={data.id}>
                                         <Link href={data.link} >
-                                            {/* <figure className="image-box1">
+                                            <figure className="image-box1" style={{margin: " 0 60px"}}>
                                                 <img src={data.img} alt="" />
-                                            </figure> */}
+                                            </figure>
                                             <h4 className="hed_text">{data.heading}</h4>
                                             <p>{data.description}</p>
                                         </Link>

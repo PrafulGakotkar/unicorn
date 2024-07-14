@@ -81,6 +81,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/deepart/page.js"
     ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
     "/power_drill_website/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

@@ -1,7 +1,8 @@
 {
-  "/jasper/page": "app/jasper/page.js",
-  "/voice_repurpose/page": "app/voice_repurpose/page.js",
-  "/deepart/page": "app/deepart/page.js",
+  "/page": "app/page.js",
+  "/not-found": "app/not-found.js",
   "/power_drill_website/page": "app/power_drill_website/page.js",
+  "/deepart/page": "app/deepart/page.js",
+  "/ai_tools/page": "app/ai_tools/page.js",
   "/data_analyst/page": "app/data_analyst/page.js"
 }
