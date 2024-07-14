@@ -164,7 +164,8 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-14"></i></div>
-                                                    <h3><Link href="/power_drill_website">DeepArt
+                                                    <h3><Link href="/power_drill_website">PowerDrillWebsite
+                                    
                                                     </Link></h3>
                                                     <p>An AI-powered platform for building and optimizing ...</p>
                                                     <div className="btn-box">

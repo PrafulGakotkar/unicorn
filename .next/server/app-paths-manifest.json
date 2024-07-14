@@ -1,4 +1,7 @@
 {
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/data_analyst/page": "app/data_analyst/page.js",
+  "/telugu_ai_tools/page": "app/telugu_ai_tools/page.js",
+  "/most_useful_ai_tools/page": "app/most_useful_ai_tools/page.js",
+  "/power_drill_website/page": "app/power_drill_website/page.js",
+  "/english_ai_tools/page": "app/english_ai_tools/page.js"
 }

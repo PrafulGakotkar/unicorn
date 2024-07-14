@@ -69,7 +69,7 @@ export default function Home() {
                                                     <div className="icon-box"><i className="icon-12"></i></div>
                                                     <h3><Link href="/project_guides">Squarespace</Link></h3>
                                                     <p> Squarespace is great for small businesses. It provides beautiful templates and features for creating professional websites. While it’s not entirely free, it offers a trial period to explore its capabilities1.
-                                                    </p>
+                                                    <br/><br/></p>
                                                     <div className="btn-box">
                                                         <Link href="/project_guides" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -88,7 +88,7 @@ export default function Home() {
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-8"></i></div>
                                                     <h3><Link href="/ask_an_expert_forum">Webflow</Link></h3>
-                                                    <p> Webflow is ideal for designers and creatives. It allows you to create visually stunning websites with advanced customization options. Although it’s not entirely free, it’s worth considering for its design flexibility1.
+                                                    <p> Webflow is ideal for designers and creatives. It allows you to create visually stunning websites with advanced customization options. Although it’s not entirely free, it’s worth considering for its design flexibility1.<br/><br/>
                                                     </p>
                                                     <div className="btn-box">
                                                         <Link href="/ask_an_expert_forum" className="theme-btn-one">Read More</Link>
@@ -148,7 +148,7 @@ export default function Home() {
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-15"></i></div>
                                                     <h3><Link href="/teacher_resources">Webflow </Link></h3>
-                                                    <p>Webflow - Lets you design and build responsive websites visually, with some coding flexibility.
+                                                    <p>Webflow - Lets you design and build responsive websites visually, with some coding flexibility.<br/><br/><br/>
                                                     </p>
                                                     <div className="btn-box">
                                                         <Link href="/teacher_resources" className="theme-btn-one">Read More</Link>
@@ -168,7 +168,7 @@ export default function Home() {
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-16"></i></div>
                                                     <h3><Link href="/teacher_resources">Figma </Link></h3>
-                                                    <p>Figma - A popular web-based design tool for creating mockups, prototypes, and user interfaces.
+                                                    <p>Figma - A popular web-based design tool for creating mockups, prototypes, and user interfaces.<br/><br/><br/>
                                                     </p>
                                                     <div className="btn-box">
                                                         <Link href="/teacher_resources" className="theme-btn-one">Read More</Link>
