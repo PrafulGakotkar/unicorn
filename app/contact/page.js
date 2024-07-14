@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Get in touch">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Get in touch">
                 <div>
                     {/* Feature Section */}
                     <section className="feature-style-three p_relative centred">

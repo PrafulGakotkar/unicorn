@@ -1,6 +1,5 @@
 'use client'
 import Layout from "@/components/layout/Layout"
-import { Helmet } from 'react-helmet';
 import Link from "next/link"
 import { useState } from 'react'
 export default function Home() {
@@ -24,12 +23,10 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="BBC News">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Most AI Useful Tools">
                 <div>
 
-                    <Helmet>
-                        <title>BBC News</title>
-                    </Helmet>
+                    
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">
                         <div className="auto-container">
@@ -42,7 +39,7 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/newsArticles.jpg" alt="" />
+                                                <img src="assets/images/service/chatgpt.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
@@ -61,7 +58,7 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/inDepthFeature.jpg" alt="" />
+                                                <img src="assets/images/service/Grammarly.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
@@ -80,7 +77,7 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/videoAudio.jpg" alt="" />
+                                                <img src="assets/images/service/jasper.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
@@ -100,7 +97,7 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/interactive feature.jpg" alt="" />
+                                                <img src="assets/images/service/voice repurpose.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
@@ -119,7 +116,7 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/collection.jpg" alt="" />
+                                                <img src="assets/images/service/Synthesia.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">

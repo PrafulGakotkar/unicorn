@@ -1,6 +1,4 @@
 {
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/website_designing/page": "app/website_designing/page.js",
-  "/free_science_fair/page": "app/free_science_fair/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

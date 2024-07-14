@@ -43,15 +43,15 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/Free Science Fair Project Ideas.jpg" alt="" />
+                                                <img src="assets/images/service/wix.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                                    <h3><Link href="/free_science_fair">Wix                                        </Link></h3>
+                                                    <h3><Link href="https://www.wix.com/">Wix                                        </Link></h3>
                                                     <p> Wix is an excellent choice for building a website for free. It offers a user-friendly drag-and-drop editor, customizable templates, and built-in SEO tools. You can choose from 900+ templates and easily tailor your site to fit your brand1.</p>
                                                     <div className="btn-box">
-                                                        <Link href="/free_science_fair" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://www.wix.com/" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -62,16 +62,16 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/Project Guides.jpg" alt="" />
+                                                <img src="assets/images/service/Squarespace.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-12"></i></div>
-                                                    <h3><Link href="/project_guides">Squarespace</Link></h3>
+                                                    <h3><Link href="https://www.squarespace.com/">Squarespace</Link></h3>
                                                     <p> Squarespace is great for small businesses. It provides beautiful templates and features for creating professional websites. While it’s not entirely free, it offers a trial period to explore its capabilities1.
                                                     <br/><br/></p>
                                                     <div className="btn-box">
-                                                        <Link href="/project_guides" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://www.squarespace.com/" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -82,16 +82,16 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/asl an forum.jpg" alt="" />
+                                                <img src="assets/images/service/webflow.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-8"></i></div>
-                                                    <h3><Link href="/ask_an_expert_forum">Webflow</Link></h3>
+                                                    <h3><Link href="https://webflow.com/">Webflow</Link></h3>
                                                     <p> Webflow is ideal for designers and creatives. It allows you to create visually stunning websites with advanced customization options. Although it’s not entirely free, it’s worth considering for its design flexibility1.<br/><br/>
                                                     </p>
                                                     <div className="btn-box">
-                                                        <Link href="/ask_an_expert_forum" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://webflow.com/" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -102,16 +102,16 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/Science Fair Tools.jpg" alt="" />
+                                                <img src="assets/images/service/weebly.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-13"></i></div>
-                                                    <h3><Link href="/science_fair_tools">Weebly</Link></h3>
+                                                    <h3><Link href="https://www.weebly.com/in">Weebly</Link></h3>
                                                     <p> Weebly is beginner-friendly and suitable for eCommerce stores. It offers a free plan with basic features, and you can easily upgrade as your website grows1.
                                                     </p>
                                                     <div className="btn-box">
-                                                        <Link href="/science_fair_tools" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://www.weebly.com/in" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -122,16 +122,16 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/Engineering Design Challenges.jpg" alt="" />
+                                                <img src="assets/images/service/Jimdo.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-14"></i></div>
-                                                    <h3><Link href="/engineering_design_challenges">Jimdo</Link></h3>
+                                                    <h3><Link href="https://www.jimdo.com/">Jimdo</Link></h3>
                                                     <p>Jimdo is another user-friendly option for beginners. It provides essential features for building a website without any coding knowledge1.
                                                     </p>
                                                     <div className="btn-box">
-                                                        <Link href="/engineering_design_challenges" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://www.jimdo.com/" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -142,16 +142,16 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/Teacher Resources.jpg" alt="" />
+                                                <img src="assets/images/service/webflow.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-15"></i></div>
-                                                    <h3><Link href="/teacher_resources">Webflow </Link></h3>
+                                                    <h3><Link href="https://webflow.com/">Webflow </Link></h3>
                                                     <p>Webflow - Lets you design and build responsive websites visually, with some coding flexibility.<br/><br/><br/>
                                                     </p>
                                                     <div className="btn-box">
-                                                        <Link href="/teacher_resources" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://webflow.com/" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -162,16 +162,16 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/Teacher Resources.jpg" alt="" />
+                                                <img src="assets/images/service/figma.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-16"></i></div>
-                                                    <h3><Link href="/teacher_resources">Figma </Link></h3>
+                                                    <h3><Link href="https://www.figma.com/">Figma </Link></h3>
                                                     <p>Figma - A popular web-based design tool for creating mockups, prototypes, and user interfaces.<br/><br/><br/>
                                                     </p>
                                                     <div className="btn-box">
-                                                        <Link href="/teacher_resources" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://www.figma.com/" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -182,16 +182,16 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/Teacher Resources.jpg" alt="" />
+                                                <img src="assets/images/service/Adobe XD.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                                    <h3><Link href="/teacher_resources">Adobe XD </Link></h3>
+                                                    <h3><Link href="https://helpx.adobe.com/in">Adobe XD </Link></h3>
                                                     <p>Adobe XD - Part of the Adobe Creative Suite, offers comprehensive design tools specifically for web and app interfaces.
                                                     </p>
                                                     <div className="btn-box">
-                                                        <Link href="/teacher_resources" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://helpx.adobe.com/in" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -202,16 +202,16 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/Teacher Resources.jpg" alt="" />
+                                                <img src="assets/images/service/wordpress.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-19"></i></div>
-                                                    <h3><Link href="/teacher_resources">WordPress </Link></h3>
+                                                    <h3><Link href="https://wordpress.com/">WordPress </Link></h3>
                                                     <p>WordPress - The most popular website platform, highly customizable with themes and plugins, good for various website types.
                                                     </p>
                                                     <div className="btn-box">
-                                                        <Link href="/teacher_resources" className="theme-btn-one">Read More</Link>
+                                                        <Link href="https://wordpress.com/" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>

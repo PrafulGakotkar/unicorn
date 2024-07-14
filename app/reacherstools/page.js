@@ -39,15 +39,15 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/newsArticles.jpg" alt="" />
+                                    <img src="assets/images/service/eclit.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
                                         <div className="icon-box"><i className="icon-7"></i></div>
-                                        <h3><Link href="/news_articles">Elicit</Link></h3>
-                                        <p>  A tool for organizing and summarizing research materials1.</p>
+                                        <h3><Link href="https://elicit.com/">Elicit</Link></h3>
+                                        <p>  A tool for organizing and summarizing research materials1.<br/><br/></p>
                                         <div className="btn-box">
-                                        <Link href="/news_articles" className="theme-btn-one">Read More</Link>
+                                        <Link href="https://elicit.com/" className="theme-btn-one">Read More</Link>
                                         </div>
                                     </div>
                                     </div>
@@ -58,15 +58,15 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/inDepthFeature.jpg" alt="" />
+                                    <img src="assets/images/service/connected papers.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
                                         <div className="icon-box"><i className="icon-12"></i></div>
-                                        <h3><Link href="/in_depth_features">Connected Papers</Link></h3>
+                                        <h3><Link href="https://www.connectedpapers.com/">Connected Papers</Link></h3>
                                         <p>Helps you explore related research papers and build connections2.</p>
                                         <div className="btn-box">
-                                        <Link href="/in_depth_features" className="theme-btn-one">Read More</Link>
+                                        <Link href="https://www.connectedpapers.com/" className="theme-btn-one">Read More</Link>
                                         </div>
                                     </div>
                                     </div>
@@ -77,15 +77,15 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/videoAudio.jpg" alt="" />
+                                    <img src="assets/images/service/Research Rabbit.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
                                         <div className="icon-box"><i className="icon-8"></i></div>
-                                        <h3><Link href="/video_and_audio_content">Research Rabbit</Link></h3>
-                                        <p>Create a research library and get recommendations for new papers3.</p>
+                                        <h3><Link href="https://www.researchrabbit.ai/">Research Rabbit</Link></h3>
+                                        <p>Create a research library and get recommendations for new papers3. <br/></p>
                                         <div className="btn-box">
-                                        <Link href="/video_and_audio_content" className="theme-btn-one">Read More</Link>
+                                        <Link href="https://www.researchrabbit.ai/" className="theme-btn-one">Read More</Link>
                                         </div>
                                     </div>
                                     </div>
@@ -96,15 +96,15 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/interactive feature.jpg" alt="" />
+                                    <img src="assets/images/service/Litmaps.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
                                         <div className="icon-box"><i className="icon-13"></i></div>
-                                        <h3><Link href="/interactive_features">Litmaps</Link></h3>
+                                        <h3><Link href="https://www.litmaps.com/">Litmaps</Link></h3>
                                         <p> Visualize the landscape of academic literature4 (use code “STAPLETON” for a 10% discount on the Pro subscription).</p>
                                         <div className="btn-box">
-                                        <Link href="/interactive_features" className="theme-btn-one">Read More</Link>
+                                        <Link href="https://www.litmaps.com/" className="theme-btn-one">Read More</Link>
                                         </div>
                                     </div>
                                     </div>
@@ -115,15 +115,15 @@ export default function Home() {
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/service/collection.jpg" alt="" />
+                                    <img src="assets/images/service/Consensus.jpg" alt="" />
                                     </figure>
                                     <div className="lower-content">
                                     <div className="inner">
                                         <div className="icon-box"><i className="icon-14"></i></div>
-                                        <h3><Link href="/collection_and_series">Consensus</Link></h3>
-                                        <p> Search databases and filter research papers for quality</p>
+                                        <h3><Link href="https://consensus.app/">Consensus</Link></h3>
+                                        <p> Search databases and filter research papers for quality <br/><br/><br/>     </p>
                                         <div className="btn-box">
-                                        <Link href="/collection_and_series" className="theme-btn-one">Read More</Link>
+                                        <Link href="https://consensus.app/" className="theme-btn-one">Read More</Link>
                                         </div>
                                     </div>
                                     </div>
