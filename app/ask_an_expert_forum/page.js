@@ -1,5 +1,4 @@
 import Layout from "@/components/layout/Layout"
-import { Helmet } from 'react-helmet';
 import Link from "next/link"
 export default function Home() {
 
@@ -8,9 +7,7 @@ export default function Home() {
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Ask an Expert Forum">
                 <div>
 
-                <Helmet>
-                        <title>Ask an Expert Forum</title>
-                    </Helmet>
+                
                     <section className="service-details p_relative">
                         <div className="auto-container">
                             <div className="row clearfix">

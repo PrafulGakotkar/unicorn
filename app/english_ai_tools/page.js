@@ -1,6 +1,5 @@
 'use client'
 import Layout from "@/components/layout/Layout"
-import { Helmet } from 'react-helmet';
 import Link from "next/link"
 import { useState } from 'react'
 export default function Home() {
@@ -27,9 +26,7 @@ export default function Home() {
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="English Website / AI Tools">
                 <div>
 
-                    <Helmet>
-                        <title>English Website / AI Tools</title>
-                    </Helmet>
+                    
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">
                         <div className="auto-container">

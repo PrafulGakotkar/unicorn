@@ -1,6 +1,5 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-import { Helmet } from 'react-helmet';
 export default function Home() {
 
     return (
@@ -8,16 +7,7 @@ export default function Home() {
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Expert-Created Content">
                 <div>
 
-                    <Helmet>
-                        <title>My Page Title</title>
-                        <meta name="description" content="This is the description of my page." />
-                        <meta name="keywords" content="react,meta,helmet,seo" />
-                        <meta property="og:title" content="My Page Title" />
-                        <meta property="og:description" content="This is the description of my page." />
-                        <meta property="og:image" content="http://example.com/image.jpg" />
-                        <meta property="og:url" content="http://example.com/page" />
-                    </Helmet>
-
+                    
                     <section className="service-details p_relative">
                         <div className="auto-container">
                             <div className="row clearfix">

@@ -1,15 +1,12 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-import { Helmet } from 'react-helmet';
 export default function Home() {
 
     return (
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Age-Specific Content">
                 <div>
-                <Helmet>
-                        <title>Age Specific Content</title>
-                    </Helmet>
+                
                     <section className="service-details p_relative">
                         <div className="auto-container">
                             <div className="row clearfix">

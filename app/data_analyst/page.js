@@ -1,13 +1,7 @@
 'use client'
 import Layout from "@/components/layout/Layout"
-import { Helmet } from 'react-helmet';
 import Link from "next/link"
 import { useState } from 'react'
-import pdf from "@/components/data/pdf";
-import image from "@/components/data/image";
-import voice from "@/components/data/voice";
-import video from "@/components/data/video";
-import text_doc from "@/components/data/text_doc";
 import analyst from "@/components/data/analyst";
 export default function Home() {
     const [isActive, setIsActive] = useState({
@@ -33,9 +27,6 @@ export default function Home() {
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="AI Tool For Data Analyst">
                 <div>
 
-                    <Helmet>
-                        <title>AI Tool For Data Analyst</title>
-                    </Helmet>
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">
                         <div className="auto-container">

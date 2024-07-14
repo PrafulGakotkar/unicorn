@@ -1,7 +1,6 @@
 'use client'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-import { Helmet } from 'react-helmet';
 import { useState } from 'react'
 export default function Home() {
     const [isActive, setIsActive] = useState({
@@ -27,9 +26,7 @@ export default function Home() {
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Science Buddies">
                 <div>
 
-                    <Helmet>
-                        <title>ScienceBuddies</title>
-                    </Helmet>
+                    
 
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">

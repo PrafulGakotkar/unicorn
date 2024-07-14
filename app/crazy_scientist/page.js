@@ -2,7 +2,6 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
-import { Helmet } from 'react-helmet';
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -26,10 +25,7 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Crazy Scientist">
                 <div>
-                    <Helmet>
-                        <title>Crazy Scientist</title>
-                    </Helmet>
-
+                    
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">
                         <div className="auto-container">
