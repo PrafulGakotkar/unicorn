@@ -1,7 +1,7 @@
 {
-  "/math1/page": "app/math1/page.js",
-  "/bbc_news/page": "app/bbc_news/page.js",
-  "/website_designing/page": "app/website_designing/page.js",
-  "/ai_tools/page": "app/ai_tools/page.js",
-  "/reacherstools/page": "app/reacherstools/page.js"
+  "/jasper/page": "app/jasper/page.js",
+  "/voice_repurpose/page": "app/voice_repurpose/page.js",
+  "/deepart/page": "app/deepart/page.js",
+  "/power_drill_website/page": "app/power_drill_website/page.js",
+  "/data_analyst/page": "app/data_analyst/page.js"
 }

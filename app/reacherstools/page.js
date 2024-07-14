@@ -24,11 +24,11 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="BBC News">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Research Tools">
                 <div>
 
                 <Helmet>
-                        <title>BBC News</title>
+                        <title>Research Tools</title>
                     </Helmet>
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">

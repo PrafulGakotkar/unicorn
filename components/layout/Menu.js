@@ -54,11 +54,13 @@ export default function Menu() {
                         </li>
                         <li className="dropdown"><Link href="#">AI Tool's</Link>
                             <ul>
-                                <li><Link href="/ai_tools">30 AI Tools</Link></li>
-                                <li><Link href="/reacherstools">Reachers Tools</Link></li>
+                                <li><Link href="/ai_tools">30 AI Tools(free)</Link></li>
+                                <li><Link href="/reacherstools">Research Tools</Link></li>
                                 <li><Link href="/website_designing">Website Designing sites</Link></li>
-                                <li><Link href="/math4">Socratic by Google AI</Link></li>
-                                <li><Link href="/math5">Symbolab</Link></li>
+                                <li><Link href="/data_analyst">AI Tool For Data Analyst</Link></li>
+                                <li><Link href="/english_ai_tools">English Website / AI Tools</Link></li>
+                                <li><Link href="/telugu_ai_tools">Telugu Website / AI Tools</Link></li>
+                                <li><Link href="/most_useful_ai_tools">Most Useful AI Tools</Link></li>
 
                             </ul>
                         </li>

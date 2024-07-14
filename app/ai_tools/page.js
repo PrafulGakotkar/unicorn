@@ -29,7 +29,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="AI Tools">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Free AI Tools">
                 <div>
 
                     <Helmet>
