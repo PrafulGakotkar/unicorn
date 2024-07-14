@@ -13,17 +13,17 @@ export default function Footer1() {
                         <div className="row clearfix">
                             <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div className="logo-widget footer-widget">
-                                    <figure className="footer-logo">
+                                    <figure className="footerlogo">
                                     <Link href="#">
-                                        <img src="assets/images/footer-logo.png" alt="" />
+                                        <img src="assets/images/logo.png" alt="" />
                                         {/* <h1 style={{color:"#FFFFFF"}}>Unicorn</h1> */}
                                     </Link>
                                     </figure>
                                     <div className="text">
-                                    <p>
+                                    {/* <p>
                                         Lorem ipsum dolor sit amet consectetur adipiscing elitsollicit udin netus quis ornare. Massa pharetra in nec sed nunc.
                                     </p>
-                                    <p>nisl viverra massa imperdiet. Dui mattis quis congue fames.</p>
+                                    <p>nisl viverra massa imperdiet. Dui mattis quis congue fames.</p> */}
                                     </div>
                                 </div>
                             </div>
@@ -34,10 +34,11 @@ export default function Footer1() {
                                     </div>
                                     <div className="widget-content">
                                     <ul className="links-list clearfix">
-                                        <li><Link href="/about-us">About Us</Link></li>
-                                        <li><Link href="/services1">Services</Link></li>
-                                        <li><Link href="/career">Career</Link></li>
-                                        <li><Link href="/pricing-table">Pricing</Link></li>
+                                        <li><Link href="/">Home</Link></li>
+                                        {/* <li><Link href="/about-us">About Us</Link></li> */}
+                                        {/* <li><Link href="/services1">Services</Link></li> */}
+                                        {/* <li><Link href="/career">Career</Link></li> */}
+                                        {/* <li><Link href="/pricing-table">Pricing</Link></li> */}
                                         <li><Link href="/contact">Contact Us</Link></li>
                                     </ul>
                                     </div>
@@ -51,11 +52,11 @@ export default function Footer1() {
                                     </div>
                                     <div className="widget-content">
                                     <ul className="links-list clearfix">
-                                        <li><Link href="#">Privacy Policy</Link></li>
-                                        <li><Link href="#">Terms & Condition</Link></li>
-                                        <li><Link href="#">Support</Link></li>
-                                        <li><Link href="#">Disclaimer</Link></li>
-                                        <li><Link href="/faq">Faq</Link></li>
+                                        <li><Link href="/bbc_news">Science</Link></li>
+                                        <li><Link href="/social1">Social</Link></li>
+                                        <li><Link href="/math1">Mathematics</Link></li>
+                                        <li><Link href="/ai_tools">AI Tools</Link></li>
+                                        {/* <li><Link href="/faq">Faq</Link></li> */}
                                     </ul>
                                     </div>
                                 </div>
