@@ -1,8 +1,7 @@
 {
-  "/page": "app/page.js",
-  "/services1/page": "app/services1/page.js",
-  "/team/page": "app/team/page.js",
-  "/services2/page": "app/services2/page.js",
+  "/power_drill_website/page": "app/power_drill_website/page.js",
+  "/deepart/page": "app/deepart/page.js",
   "/bbc_news/page": "app/bbc_news/page.js",
-  "/ai_tools/page": "app/ai_tools/page.js"
+  "/science_buddies/page": "app/science_buddies/page.js",
+  "/science_academy/page": "app/science_academy/page.js"
 }

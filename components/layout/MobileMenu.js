@@ -32,10 +32,10 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                             <ul className="navigation clearfix">
                                 <li><Link href="/" onClick={handleLinkClick}>Home</Link></li>
                                 <li className={activeMenu.mainMenu === 2 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/#" onClick={handleLinkClick}>Subject</Link>
+                                    <Link href="/#" >Subject</Link>
                                     <ul style={{ display: `${activeMenu.mainMenu === 2 ? "block" : "none"}` }}>
                                         <li className={activeMenu.subMenu === 3 ? "dropdown current" : "dropdown"}>
-                                            <Link href="/#" onClick={handleLinkClick}>Science</Link>
+                                            <Link href="/#" >Science</Link>
                                             <ul style={{ display: `${activeMenu.subMenu === 3 ? "block" : "none"}` }}>
                                                 {/* <li className={activeMenu.subSubMenu === 4 ? "dropdown current" : "dropdown"}>
                                                     <Link href="/#" onClick={handleLinkClick}>Team</Link>
@@ -54,38 +54,38 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                             <div className={activeMenu.subMenu === 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle('subMenu', 3)}><span className="fa fa-angle-right" /></div>
                                         </li>
                                         <li className={activeMenu.subMenu === 4 ? "dropdown current" : "dropdown"}>
-                                            <Link href="/#" onClick={handleLinkClick}>Social</Link>
+                                            <Link href="/#" >Social</Link>
                                             <ul style={{ display: `${activeMenu.subMenu === 4 ? "block" : "none"}` }}>
-                                                <li><Link href="/social1">Socratic by Google AI</Link></li>
-                                                <li><Link href="/social2">Khan Academy</Link></li>
-                                                <li><Link href="/social3">iCivics</Link></li>
-                                                <li><Link href="/social4">Newsela</Link></li>
-                                                <li><Link href="/social5">Library of Congress</Link></li>
+                                                <li><Link href="/social1"  onClick={handleLinkClick} >Socratic by Google AI</Link></li>
+                                                <li><Link href="/social2"  onClick={handleLinkClick} >Khan Academy</Link></li>
+                                                <li><Link href="/social3"  onClick={handleLinkClick} >iCivics</Link></li>
+                                                <li><Link href="/social4"  onClick={handleLinkClick} >Newsela</Link></li>
+                                                <li><Link href="/social5"  onClick={handleLinkClick} >Library of Congress</Link></li>
                                             </ul>
                                             <div className={activeMenu.subMenu === 4 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle('subMenu', 4)}><span className="fa fa-angle-right" /></div>
                                         </li>
                                         <li className={activeMenu.subMenu === 5 ? "dropdown current" : "dropdown"}>
-                                            <Link href="/#" onClick={handleLinkClick}>Mathematics</Link>
+                                            <Link href="/#" >Mathematics</Link>
                                             <ul style={{ display: `${activeMenu.subMenu === 5 ? "block" : "none"}` }}>
-                                                <li><Link href="/math1">Khan Academy</Link></li>
-                                                <li><Link href="/math2">Purplemath</Link></li>
-                                                <li><Link href="/math3">Mathway</Link></li>
-                                                <li><Link href="/math4">Socratic by Google AI</Link></li>
-                                                <li><Link href="/math5">Symbolab</Link></li>
+                                                <li><Link href="/math1"  onClick={handleLinkClick} >Khan Academy</Link></li>
+                                                <li><Link href="/math2"  onClick={handleLinkClick} >Purplemath</Link></li>
+                                                <li><Link href="/math3"  onClick={handleLinkClick} >Mathway</Link></li>
+                                                <li><Link href="/math4"  onClick={handleLinkClick} >Socratic by Google AI</Link></li>
+                                                <li><Link href="/math5"  onClick={handleLinkClick} >Symbolab</Link></li>
                                             </ul>
                                             <div className={activeMenu.subMenu === 5 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle('subMenu', 5)}><span className="fa fa-angle-right" /></div>
                                         </li>
                                         <li className={activeMenu.subMenu === 6 ? "dropdown current" : "dropdown"}>
-                                            <Link href="/#" onClick={handleLinkClick}>AI Tools</Link>
+                                            <Link href="/#" >AI Tools</Link>
                                             <ul style={{ display: `${activeMenu.subMenu === 6 ? "block" : "none"}` }}>
 
-                                                <li><Link href="/ai_tools">30 AI Tools(free)</Link></li>
-                                                <li><Link href="/reacherstools">Research Tools</Link></li>
-                                                <li><Link href="/website_designing">Website Designing sites</Link></li>
-                                                <li><Link href="/data_analyst">AI Tool For Data Analyst</Link></li>
-                                                <li><Link href="/english_ai_tools">English Website / AI Tools</Link></li>
-                                                <li><Link href="/telugu_ai_tools">Telugu Website / AI Tools</Link></li>
-                                                <li><Link href="/most_useful_ai_tools">Most Useful AI Tools</Link></li>
+                                                <li><Link href="/ai_tools" onClick={handleLinkClick} >30 AI Tools(free)</Link></li>
+                                                <li><Link href="/reacherstools" onClick={handleLinkClick} >Research Tools</Link></li>
+                                                <li><Link href="/website_designing" onClick={handleLinkClick} >Website Designing sites</Link></li>
+                                                <li><Link href="/data_analyst" onClick={handleLinkClick} >AI Tool For Data Analyst</Link></li>
+                                                <li><Link href="/english_ai_tools" onClick={handleLinkClick} >English Website / AI Tools</Link></li>
+                                                <li><Link href="/telugu_ai_tools" onClick={handleLinkClick} >Telugu Website / AI Tools</Link></li>
+                                                <li><Link href="/most_useful_ai_tools" onClick={handleLinkClick} >Most Useful AI Tools</Link></li>
 
                                             </ul>
                                             <div className={activeMenu.subMenu === 6 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle('subMenu', 6)}><span className="fa fa-angle-right" /></div>

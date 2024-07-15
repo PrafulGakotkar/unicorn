@@ -38,7 +38,7 @@ export default function Home() {
                             </li>
                             <li>
                                 <span>Phone: </span>
-                                <Link href="tel:913336660021">(+91) 333 666 0021</Link>
+                                <Link href="tel:913336660021">+91 8247266609</Link>
                             </li>
                             </ul>
                             <ul className="social-links clearfix">

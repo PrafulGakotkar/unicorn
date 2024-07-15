@@ -64,7 +64,7 @@ export default function Footer2() {
                                         <p>Tincidunt neque pretium lectus donec risus.</p>
                                         <ul className="info-list clearfix">
                                             <li><i className="icon-23"></i>New Hyde Park, NY 11040</li>
-                                            <li><i className="icon-3"></i><Link href="mailto:example@info.com">example@info.com</Link></li>
+                                            <li><i className="icon-3"></i><Link href="mailto:info@serpointservices.com">info@serpointservices.com</Link></li>
                                             <li><i className="icon-2"></i><Link href="tel:912136660027">333 666 0000</Link></li>
                                         </ul>
                                     </div>

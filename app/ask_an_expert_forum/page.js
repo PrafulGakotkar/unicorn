@@ -55,10 +55,10 @@ export default function Home() {
                                                 </div>
                                                 <div className="inner-box">
                                                     <p>
-                                                        <Link href="mailto:example@info.com">example@info.com</Link>
+                                                        <Link href="#">info@serpointservices.com</Link>
                                                     </p>
                                                     <h3>
-                                                        <Link href="tel:913336660021">(+91) 333 666 0021</Link>
+                                                        <Link href="#">+91 8247266609</Link>
                                                     </h3>
                                                 </div>
                                             </div>

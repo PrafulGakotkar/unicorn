@@ -21,21 +21,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/data_analyst/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/data_analyst/page.js"
-    ],
-    "/english_ai_tools/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/english_ai_tools/page.js"
-    ],
-    "/telugu_ai_tools/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/telugu_ai_tools/page.js"
-    ],
     "/most_useful_ai_tools/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -50,6 +35,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/deepart/page.js"
+    ],
+    "/synthesia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/synthesia/page.js"
     ],
     "/voice_repurpose/page": [
       "static/chunks/webpack.js",
@@ -71,35 +61,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/chatgpt/page.js"
     ],
-    "/synthesia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/synthesia/page.js"
-    ],
-    "/team/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/team/page.js"
-    ],
-    "/services1/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/services1/page.js"
-    ],
-    "/services2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/services2/page.js"
-    ],
     "/bbc_news/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/bbc_news/page.js"
     ],
-    "/ai_tools/page": [
+    "/science_academy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/ai_tools/page.js"
+      "static/chunks/app/science_academy/page.js"
+    ],
+    "/science_buddies/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/science_buddies/page.js"
     ]
   }
 }

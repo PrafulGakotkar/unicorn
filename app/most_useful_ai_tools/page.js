@@ -136,7 +136,7 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/collection.jpg" alt="" />
+                                                <img src="assets/images/service/deepart.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">
@@ -156,7 +156,7 @@ export default function Home() {
                                     <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/collection.jpg" alt="" />
+                                                <img src="assets/images/service/PowerDrillWebsite.jpg" alt="" />
                                             </figure>
                                             <div className="lower-content">
                                                 <div className="inner">

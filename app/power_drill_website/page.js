@@ -58,10 +58,10 @@ export default function Home() {
                                                 </div>
                                                 <div className="inner-box">
                                                     <p>
-                                                        <Link href="mailto:example@info.com">example@info.com</Link>
+                                                        <Link href="#">info@serpointservices.com</Link>
                                                     </p>
                                                     <h3>
-                                                        <Link href="tel:913336660021">(+91) 333 666 0021</Link>
+                                                        <Link href="#">+91 8247266609</Link>
                                                     </h3>
                                                 </div>
                                             </div>
@@ -72,7 +72,7 @@ export default function Home() {
                                     <div className="service-details-content">
                                         <div className="content-one mb_90">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/newsArticles1.jpg" alt="" />
+                                                <img src="assets/images/service/PowerDrillWebsite1.jpg" alt="" />
                                             </figure>
                                             <div className="text">
                                                 <h2>PowerDrillWebsite</h2>
