@@ -1,8 +1,8 @@
 {
-  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
-  "/bbc_news/page": "app/bbc_news/page.js",
-  "/services2/page": "app/services2/page.js",
+  "/services1/page": "app/services1/page.js",
   "/team/page": "app/team/page.js",
-  "/services1/page": "app/services1/page.js"
+  "/services2/page": "app/services2/page.js",
+  "/bbc_news/page": "app/bbc_news/page.js",
+  "/ai_tools/page": "app/ai_tools/page.js"
 }

@@ -71,6 +71,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/chatgpt/page.js"
     ],
+    "/synthesia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/synthesia/page.js"
+    ],
     "/team/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -81,11 +86,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/services1/page.js"
     ],
-    "/synthesia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/synthesia/page.js"
-    ],
     "/services2/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -95,6 +95,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/bbc_news/page.js"
+    ],
+    "/ai_tools/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/ai_tools/page.js"
     ]
   }
 }
