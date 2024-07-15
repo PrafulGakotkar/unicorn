@@ -15,7 +15,7 @@ export default function Footer1() {
                                 <div className="logo-widget footer-widget">
                                     <figure className="footerlogo">
                                     <Link href="#">
-                                        <img src="assets/images/logo.png" alt="" />
+                                        <img src="assets/images/logo5.png" alt="" />
                                         {/* <h1 style={{color:"#FFFFFF"}}>Unicorn</h1> */}
                                     </Link>
                                     </figure>

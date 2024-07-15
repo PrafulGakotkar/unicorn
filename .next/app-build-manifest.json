@@ -21,60 +21,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/most_useful_ai_tools/page": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/most_useful_ai_tools/page.js"
-    ],
-    "/power_drill_website/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/power_drill_website/page.js"
-    ],
-    "/deepart/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/deepart/page.js"
-    ],
-    "/synthesia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/synthesia/page.js"
-    ],
-    "/voice_repurpose/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/voice_repurpose/page.js"
-    ],
-    "/jasper/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/jasper/page.js"
-    ],
-    "/grammarly/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/grammarly/page.js"
-    ],
-    "/chatgpt/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/chatgpt/page.js"
-    ],
-    "/bbc_news/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bbc_news/page.js"
-    ],
-    "/science_academy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/science_academy/page.js"
-    ],
-    "/science_buddies/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/science_buddies/page.js"
+      "static/chunks/app/contact/page.js"
     ]
   }
 }
