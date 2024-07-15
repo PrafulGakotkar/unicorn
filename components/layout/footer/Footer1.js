@@ -68,7 +68,7 @@ export default function Footer1() {
                                     <h3>Contact</h3>
                                     </div>
                                     <div className="widget-content">
-                                    <p>Tincidunt neque pretium lectus donec risus.</p>
+                                    {/* <p>Tincidunt neque pretium lectus donec risus.</p> */}
                                     <ul className="info-list clearfix">
                                         <li><i className="icon-23"></i>STPI 2nd Floor Divyasree Solitaire Building Hitech City, Madhapur, Hyderabad, Telangana 500081</li>
                                         <li><i className="icon-3"></i><Link href="mailto:example@info.com">info@serpointservices.com
@@ -88,7 +88,7 @@ export default function Footer1() {
                     <div className="auto-container">
                     <div className="copyright">
                         <p>
-                        Copyright {new Date().getFullYear()} by <Link href="#">biztech</Link> theme All Right Reserved.
+                        Copyright {new Date().getFullYear()} by <Link href="#">Unicorn Startup</Link> theme All Right Reserved.
                         </p>
                     </div>
                     </div>
