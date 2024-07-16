@@ -22,7 +22,7 @@ export default function Features() {
                             <figure className="image-box"><img src="assets/images/resource/mthematics.png" alt="" /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-7"></i></div>
-                            <h3><Link href="/">MATHEMATICS</Link></h3>
+                            <h3><Link href="/math1">MATHEMATICS</Link></h3>
                             {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                             </div>
                         </div>
@@ -34,7 +34,7 @@ export default function Features() {
                             <figure className="image-box"><img src="assets/images/resource/science.png" alt="" /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-8"></i></div>
-                            <h3><Link href="/">SCIENCE</Link></h3>
+                            <h3><Link href="/bbc_news">SCIENCE</Link></h3>
                             {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                             </div>
                         </div>
@@ -46,7 +46,7 @@ export default function Features() {
                             <figure className="image-box"><img src="assets/images/resource/social.png" alt="" /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-9"></i></div>
-                            <h3><Link href="/">SOCIAL</Link></h3>
+                            <h3><Link href="/social1">SOCIAL</Link></h3>
                             {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default function Features() {
                             <figure className="image-box"><img src="assets/images/resource/AITool.png" alt="" /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-11"></i></div>
-                            <h3><Link href="/">AI TOOLS</Link></h3>
+                            <h3><Link href="/ai_tools">AI TOOLS</Link></h3>
                             {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                             </div>
                         </div>
