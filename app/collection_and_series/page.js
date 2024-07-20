@@ -62,8 +62,9 @@ export default function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="col-lg-8 col-md-12 col-sm-12 content-side">
+                                    </div>                                   
+                                </div>
+                                <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                                         <div className="service-details-content">
                                             <div className="content-one mb_90">
                                                 <figure className="image-box">
@@ -82,7 +83,6 @@ export default function Home() {
 
                                         </div>
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </section>

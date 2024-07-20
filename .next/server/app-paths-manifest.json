@@ -1,7 +1,9 @@
 {
   "/page": "app/page.js",
-  "/ai_tools/page": "app/ai_tools/page.js",
-  "/math1/page": "app/math1/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/bbc_news/page": "app/bbc_news/page.js",
-  "/social1/page": "app/social1/page.js"
+  "/collection_and_series/page": "app/collection_and_series/page.js",
+  "/science_buddies/page": "app/science_buddies/page.js",
+  "/national_geographic_science/page": "app/national_geographic_science/page.js",
+  "/engineering_design_challenges/page": "app/engineering_design_challenges/page.js"
 }
