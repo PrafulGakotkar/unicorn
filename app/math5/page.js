@@ -1,3 +1,4 @@
+import Feedback from "@/components/form/feedbackForm"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
                                                     <Link href="/math1" >Khan Academy</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/math2" className="current">Purplemath</Link>
+                                                    <Link href="/math2" >Purplemath</Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/math3" >Mathway</Link>
@@ -187,6 +188,7 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
+                    <Feedback />
                 </div>
             </Layout>
         </>

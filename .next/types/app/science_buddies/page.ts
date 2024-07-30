@@ -1,4 +1,4 @@
-// File: F:\Project\Working Project\unicorn\unicorn\app\science_buddies\page.js
+// File: D:\Project\Working Projects\unicorn\unicorn\app\science_buddies\page.js
 import * as entry from '../../../../app/science_buddies/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

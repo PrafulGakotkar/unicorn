@@ -1,4 +1,4 @@
-// File: F:\Project\Working Project\unicorn\unicorn\app\bbc_news\page.js
+// File: D:\Project\Working Projects\unicorn\unicorn\app\bbc_news\page.js
 import * as entry from '../../../../app/bbc_news/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

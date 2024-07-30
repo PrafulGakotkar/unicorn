@@ -9,6 +9,7 @@ import voice from "@/components/data/voice";
 import video from "@/components/data/video";
 import text_doc from "@/components/data/text_doc";
 import analyst from "@/components/data/analyst";
+import Feedback from "@/components/form/feedbackForm";
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -59,6 +60,7 @@ export default function Home() {
 
                         </div>
                     </section>
+                    <Feedback/>
                 </div>
 
             </Layout>

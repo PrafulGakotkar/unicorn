@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
 import analyst from "@/components/data/analyst";
+import Feedback from "@/components/form/feedbackForm";
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -37,7 +38,7 @@ export default function Home() {
                                 {analyst.map((data) =>
                                     <div className="col-lg-3 col-md-3 col-sm-6 tools" key={data.id}>
                                         <Link href={data.link} >
-                                            <figure className="image-box1" style={{margin: " 0 60px"}}>
+                                            <figure className="image-box1" style={{ margin: " 0 60px" }}>
                                                 <img src={data.img} alt="" />
                                             </figure>
                                             <h4 className="hed_text">{data.heading}</h4>
@@ -51,6 +52,7 @@ export default function Home() {
                         </div>
                     </section>
                 </div>
+                <Feedback />
 
             </Layout>
         </>

@@ -1,4 +1,5 @@
 'use client'
+import Feedback from "@/components/form/feedbackForm"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
@@ -33,130 +34,131 @@ export default function Home() {
                             <h2>Provide the Best Consulting <br />in This Industry</h2>
                             </div> */}
                             <div className="row clearfix">
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Trusted and Engaging Content.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-7"></i></div>
-                                        <h3><Link href="/trusted_and_engaging_content">Trusted and Engaging Content
-                                        </Link></h3>
-                                        <p>National Geographic leverages its reputation for scientific ...</p>
-                                        <div className="btn-box">
-                                        <Link href="/trusted_and_engaging_content" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Trusted and Engaging Content.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-7"></i></div>
+                                                    <h3><Link href="/trusted_and_engaging_content">Trusted and Engaging Content
+                                                    </Link></h3>
+                                                    <p>National Geographic leverages its reputation for scientific ...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/trusted_and_engaging_content" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Variety of Media.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-12"></i></div>
-                                        <h3><Link href="/variety_of_media">Variety of Media
-                                        </Link></h3>
-                                        <p>National Geographic Science offers a range of media formats to cater to ...</p>
-                                        <div className="btn-box">
-                                        <Link href="/variety_of_media" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Variety of Media.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-12"></i></div>
+                                                    <h3><Link href="/variety_of_media">Variety of Media
+                                                    </Link></h3>
+                                                    <p>National Geographic Science offers a range of media formats to cater to ...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/variety_of_media" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Focus on Exploration and Discovery.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-8"></i></div>
-                                        <h3><Link href="/focus_on_exploration">Focus on Exploration and Discovery
-                                        </Link></h3>
-                                        <p>The website emphasizes the excitement of scientific...</p>
-                                        <div className="btn-box">
-                                        <Link href="/focus_on_exploration" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Focus on Exploration and Discovery.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-8"></i></div>
+                                                    <h3><Link href="/focus_on_exploration">Focus on Exploration and Discovery
+                                                    </Link></h3>
+                                                    <p>The website emphasizes the excitement of scientific...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/focus_on_exploration" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/age specific content.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-13"></i></div>
-                                        <h3><Link href="/age_spesific_content">Age-Specific Content
-                                        </Link></h3>
-                                        <p>National Geographic Science caters to audiences of all ages. Content is categorized...</p>
-                                        <div className="btn-box">
-                                        <Link href="/age_spesific_content" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/age specific content.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-13"></i></div>
+                                                    <h3><Link href="/age_spesific_content">Age-Specific Content
+                                                    </Link></h3>
+                                                    <p>National Geographic Science caters to audiences of all ages. Content is categorized...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/age_spesific_content" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Interactive Learning.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-14"></i></div>
-                                        <h3><Link href="/interactive_learning">Interactive Learning</Link></h3>
-                                        <p>The website incorporates interactive elements like games and ...</p>
-                                        <div className="btn-box">
-                                        <Link href="/interactive_learning" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Interactive Learning.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-14"></i></div>
+                                                    <h3><Link href="/interactive_learning">Interactive Learning</Link></h3>
+                                                    <p>The website incorporates interactive elements like games and ...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/interactive_learning" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/Connection to Real-World Science.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-15"></i></div>
-                                        <h3><Link href="/connection_to_real_world">Connection to Real-World Science</Link></h3>
-                                        <p>National Geographic Science connects scientific...</p>
-                                        <div className="btn-box">
-                                        <Link href="/connection_to_real_world" className="theme-btn-one">Read More</Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                    <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box">
+                                                <img src="assets/images/service/Connection to Real-World Science.jpg" alt="" />
+                                            </figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <div className="icon-box"><i className="icon-15"></i></div>
+                                                    <h3><Link href="/connection_to_real_world">Connection to Real-World Science</Link></h3>
+                                                    <p>National Geographic Science connects scientific...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/connection_to_real_world" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                           
+
                             </div>
                         </div>
                     </section>
                     {/* service-style-two end */}
 
+                    <Feedback />
 
                     {/* chooseus-style-two */}
                     {/* <section className="chooseus-style-two sec-pad">

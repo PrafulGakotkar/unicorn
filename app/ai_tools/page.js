@@ -8,6 +8,7 @@ import image from "@/components/data/image";
 import voice from "@/components/data/voice";
 import video from "@/components/data/video";
 import text_doc from "@/components/data/text_doc";
+import Feedback from "@/components/form/feedbackForm";
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -255,7 +256,7 @@ export default function Home() {
                         </div>
                     </section>
                     {/* service-style-two end */}
-
+<Feedback />
 
                     {/* chooseus-style-two */}
                     {/* <section className="chooseus-style-two sec-pad">

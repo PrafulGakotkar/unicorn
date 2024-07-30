@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout"
 import { Helmet } from 'react-helmet';
 import Link from "next/link"
 import { useState } from 'react'
+import Feedback from "@/components/form/feedbackForm";
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -142,6 +143,7 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
+                    <Feedback />
                     {/* service-style-two end */}
 
 

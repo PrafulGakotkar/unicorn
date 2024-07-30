@@ -1,4 +1,5 @@
 'use client'
+import Feedback from "@/components/form/feedbackForm"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
@@ -136,7 +137,7 @@ export default function Home() {
                     </section>
                     {/* service-style-two end */}
 
-
+<Feedback />
                     {/* chooseus-style-two */}
                     {/* <section className="chooseus-style-two sec-pad">
                         <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(assets/images/background/chooseus-bg-2.jpg)' }}></div>

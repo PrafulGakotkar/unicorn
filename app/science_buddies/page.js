@@ -1,4 +1,5 @@
 'use client'
+import Feedback from "@/components/form/feedbackForm"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
@@ -26,7 +27,7 @@ export default function Home() {
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Science Buddies">
                 <div>
 
-                    
+
 
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">
@@ -158,7 +159,7 @@ export default function Home() {
                         </div>
                     </section>
                     {/* service-style-two end */}
-
+                    <Feedback />
 
                     {/* chooseus-style-two */}
                     {/* <section className="chooseus-style-two sec-pad">

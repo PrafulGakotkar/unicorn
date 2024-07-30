@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { Helmet } from 'react-helmet';
 import { useState } from 'react'
+import Feedback from "@/components/form/feedbackForm";
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -69,7 +70,7 @@ export default function Home() {
                                                     <div className="icon-box"><i className="icon-12"></i></div>
                                                     <h3><Link href="https://www.squarespace.com/">Squarespace</Link></h3>
                                                     <p> Squarespace is great for small businesses. It provides beautiful templates and features for creating professional websites. While it’s not entirely free, it offers a trial period to explore its capabilities1.
-                                                    <br/><br/></p>
+                                                        <br /><br /></p>
                                                     <div className="btn-box">
                                                         <Link href="https://www.squarespace.com/" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -88,7 +89,7 @@ export default function Home() {
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-8"></i></div>
                                                     <h3><Link href="https://webflow.com/">Webflow</Link></h3>
-                                                    <p> Webflow is ideal for designers and creatives. It allows you to create visually stunning websites with advanced customization options. Although it’s not entirely free, it’s worth considering for its design flexibility1.<br/><br/>
+                                                    <p> Webflow is ideal for designers and creatives. It allows you to create visually stunning websites with advanced customization options. Although it’s not entirely free, it’s worth considering for its design flexibility1.<br /><br />
                                                     </p>
                                                     <div className="btn-box">
                                                         <Link href="https://webflow.com/" className="theme-btn-one">Read More</Link>
@@ -148,7 +149,7 @@ export default function Home() {
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-15"></i></div>
                                                     <h3><Link href="https://webflow.com/">Webflow </Link></h3>
-                                                    <p>Webflow - Lets you design and build responsive websites visually, with some coding flexibility.<br/><br/><br/>
+                                                    <p>Webflow - Lets you design and build responsive websites visually, with some coding flexibility.<br /><br /><br />
                                                     </p>
                                                     <div className="btn-box">
                                                         <Link href="https://webflow.com/" className="theme-btn-one">Read More</Link>
@@ -168,7 +169,7 @@ export default function Home() {
                                                 <div className="inner">
                                                     <div className="icon-box"><i className="icon-16"></i></div>
                                                     <h3><Link href="https://www.figma.com/">Figma </Link></h3>
-                                                    <p>Figma - A popular web-based design tool for creating mockups, prototypes, and user interfaces.<br/><br/><br/>
+                                                    <p>Figma - A popular web-based design tool for creating mockups, prototypes, and user interfaces.<br /><br /><br />
                                                     </p>
                                                     <div className="btn-box">
                                                         <Link href="https://www.figma.com/" className="theme-btn-one">Read More</Link>
@@ -224,7 +225,7 @@ export default function Home() {
                     </section>
                     {/* service-style-two end */}
 
-
+                    <Feedback />
                     {/* chooseus-style-two */}
                     {/* <section className="chooseus-style-two sec-pad">
                         <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(assets/images/background/chooseus-bg-2.jpg)' }}></div>

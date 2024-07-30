@@ -1,3 +1,4 @@
+import Feedback from "@/components/form/feedbackForm"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
@@ -180,6 +181,7 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
+                    <Feedback />
                 </div>
             </Layout>
         </>
